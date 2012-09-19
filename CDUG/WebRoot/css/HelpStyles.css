@@ -1,0 +1,90 @@
+.help {
+	FONT-SIZE: x-small; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.help_indent {
+	FONT-SIZE: x-small; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+A.help {
+	COLOR: #333399
+}
+A.help:visited {
+	COLOR: #333399
+}
+A.help:active {
+	COLOR: #333399
+}
+A.help:hover {
+	COLOR: #6699cc
+}
+SAMP.help {
+	FONT-SIZE: x-small; FONT-FAMILY: monospace
+}
+H2.help {
+	PADDING-LEFT: 44px; FONT-WEIGHT: bold; FONT-SIZE: medium; MARGIN: -5px -27px 8px; COLOR: #ffffff; PADDING-TOP: 22px; BORDER-BOTTOM: #000000 1px solid; HEIGHT: 36px; BACKGROUND-COLOR: #8956a4; TEXT-ALIGN: left
+}
+H3.help {
+	PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: small; MARGIN: 16px -20px 0px 20px; COLOR: #ffffff; PADDING-TOP: 3px; HEIGHT: 24px; BACKGROUND-COLOR: #8956a4
+}
+H3 A.help {
+	FONT-SIZE: small; COLOR: #ffffff; BACKGROUND-COLOR: #8956a4
+}
+H4.help {
+	PADDING-LEFT: 8px; FONT-WEIGHT: normal; FONT-SIZE: x-small; MARGIN: 16px -20px 0px 20px; COLOR: #ffffff; PADDING-TOP: 3px; FONT-STYLE: italic; HEIGHT: 20px; BACKGROUND-COLOR: #8956a4; TEXT-ALIGN: left
+}
+H4 A.help {
+	FONT-WEIGHT: normal; FONT-SIZE: x-small; COLOR: #ffffff; FONT-STYLE: italic; BACKGROUND-COLOR: #8956a4
+}
+P.help {
+	PADDING-BOTTOM: 0px; MARGIN: 2px 20px 0px 30px; PADDING-TOP: 4px
+}
+UL.help {
+	MARGIN-LEFT: 54px; MARGIN-RIGHT: 20px
+}
+OL.help {
+	MARGIN-LEFT: 54px; MARGIN-RIGHT: 20px
+}
+DL.help {
+	MARGIN-LEFT: 36px; MARGIN-RIGHT: 20px
+}
+P.help_indent {
+	PADDING-BOTTOM: 0px; MARGIN: 2px 0px 0px; PADDING-TOP: 4px
+}
+UL.help_indent {
+	MARGIN-LEFT: 12px; MARGIN-RIGHT: 0px
+}
+OL.help_indent {
+	MARGIN-LEFT: 12px; MARGIN-RIGHT: 0px
+}
+DL.help_indent {
+	MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px
+}
+DT A.help {
+	FONT-WEIGHT: bold; COLOR: #000000
+}
+DD.help {
+	PADDING-BOTTOM: 20px; PADDING-TOP: 2px
+}
+LI.help {
+	PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+TABLE.help {
+	MARGIN-LEFT: 30px
+}
+PRE.help {
+	MARGIN-LEFT: 30px; FONT-FAMILY: monospace
+}
+DD P.help {
+	MARGIN-TOP: 2px; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; PADDING-TOP: 4px
+}
+TABLE.help_indent {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MARGIN-LEFT: 0px
+}
+PRE.help_indent {
+	MARGIN-LEFT: 0px; FONT-FAMILY: monospace
+}
+TH.help {
+	PADDING-BOTTOM: 5px; VERTICAL-ALIGN: top; PADDING-TOP: 5px; TEXT-ALIGN: left
+}
+TD.help {
+	PADDING-BOTTOM: 5px; VERTICAL-ALIGN: top; PADDING-TOP: 5px; TEXT-ALIGN: left
+}

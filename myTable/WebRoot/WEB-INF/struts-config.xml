@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+	<data-sources />
+	<form-beans>
+		<form-bean name="queryForm"
+			type="com.ibm.cn.db2.mytable.struts.form.QueryForm">
+			<form-property name="custID" type="String"></form-property>
+			<form-property name="dbMenu" type="String"></form-property>
+		</form-bean>
+	</form-beans>
+
+	<global-exceptions />
+	
+	<global-forwards>
+		<forward name="生成报表" path="/webPages/genTable.jsp" />
+	</global-forwards>
+
+	<action-mappings>
+		<action attribute="queryForm"
+			input="/webPages/ajax/queryResult.jsp" name="queryForm" path="/query"
+			scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy">
+			<forward name="ajax" path="/webPages/ajax/queryResult.jsp" />
+		</action>
+
+		<action path="/pagination"
+			type="org.springframework.web.struts.DelegatingActionProxy"
+			validate="false">
+			<forward name="table" path="/webPages/editableTable.jsp" />
+		</action>
+
+		<action path="/initial" parameter="method"
+			type="org.springframework.web.struts.DelegatingActionProxy">
+			<forward name="index" path="/webPages/index.jsp" />
+		</action>
+		
+		<action path="/customer" parameter="method"
+			type="org.springframework.web.struts.DelegatingActionProxy">
+			<forward name="custEdit" path="/webPages/CustomerNameEdit.jsp" />
+			<forward name="query" path="/initial.do" />
+			<forward name="custName" path="/webPages/CustomerName.jsp" />
+			<forward name="saved" path="/webPages/ajax/statusContent1.jsp" />
+			<forward name="error" path="/webPages/error.jsp" />
+			<forward name="pagination" path="/pagination.do" redirect="true" />
+		</action>
+		
+		<action path="/updatePmr"
+			type="org.springframework.web.struts.DelegatingActionProxy"
+			validate="false">
+			<forward name="pagination" path="/pagination.do" redirect="true" contextRelative="true" />
+		</action>
+		
+		
+	    
+	    <action path="/genTable"
+	      type="org.springframework.web.struts.DelegatingActionProxy"
+	      validate="false">
+	      <forward name="showTable" path="/webPages/showDataTable.jsp" />
+	    </action>
+	    
+	    <action
+	      parameter="method"
+	      path="/categoryManage"
+	      type="org.springframework.web.struts.DelegatingActionProxy"
+	      validate="false">
+	      <forward name="categoryManage" path="/webPages/categoryManagement.jsp" />
+	      <forward name="mainCategory" path="/webPages/mainCategory.jsp" />
+	      <forward name="subCategory" path="/webPages/subCategory.jsp" />
+	    </action>
+    
+	    <action
+	      path="/visibleSelect"
+	      type="org.springframework.web.struts.DelegatingActionProxy"
+	      validate="false" >
+	      	<forward name="initial" path="/initial.do" />
+	      	<forward name="pagination" path="/pagination.do" />
+	      </action>
+	      
+	      <action
+	      path="/genChart"
+	      type="org.springframework.web.struts.DelegatingActionProxy"
+	      validate="false" >
+	      </action>
+    <action
+      parameter="method"
+      path="/assignWork"
+      type="com.ibm.cn.db2.mytable.struts.action.AssignWorkAction">
+      <forward name="worker" path="/webPages/assignWorkManagement_worker.jsp" />
+      <forward name="cust" path="/webPages/assignWorkManagement_cust.jsp" />
+      <forward name="status" path="/webPages/assignWorkManagement_status.jsp" />
+    </action>
+	    
+	</action-mappings>
+
+	<message-resources
+		parameter="com.ibm.cn.db2.mytable.struts.ApplicationResources" />
+
+	<plug-in
+		className="org.springframework.web.struts.ContextLoaderPlugIn">
+		<set-property property="contextConfigLocation"
+			value="/WEB-INF/classes/applicationContext.xml" />
+	</plug-in>
+
+	<plug-in className="org.apache.struts.tiles.TilesPlugin">
+		<set-property property="definitions-config"
+			value="/WEB-INF/tiles-defs.xml" />
+		<set-property property="moduleAware" value="true" />
+		<set-property property="definitions-parser-validate"
+			value="true" />
+	</plug-in>
+</struts-config>
+

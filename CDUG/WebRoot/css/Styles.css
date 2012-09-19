@@ -1,0 +1,1030 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: xx-small; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+TABLE {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+INPUT {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+TEXTAREA {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+BUTTON {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+SELECT {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+DIV {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+SPAN {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+P {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+UL {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+LI {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+TD {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+TH {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+PRE {
+	FONT-SIZE: x-small; FONT-FAMILY: monospace
+}
+A {
+	COLOR: #3366cc
+}
+.wpsLink {
+	COLOR: #3366cc
+}
+A:active {
+	COLOR: #3366cc
+}
+.wpsLink:active {
+	COLOR: #3366cc
+}
+A:visited {
+	COLOR: #00529f
+}
+.wpsLink:visited {
+	COLOR: #00529f
+}
+A:hover {
+	COLOR: #6699cc
+}
+.wpsLink:hover {
+	COLOR: #6699cc
+}
+.wpsToolBar {
+	BORDER-RIGHT: #ffffff 0px; PADDING-RIGHT: 4px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 4px; FONT-SIZE: xx-small; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #ffffff 1px solid; COLOR: #666666; PADDING-TOP: 0px; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-COLOR: #cfd9e5
+}
+.wpsToolBarIcon {
+	BORDER-RIGHT: #ffffff 0px; PADDING-RIGHT: 0px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 0px; FONT-SIZE: xx-small; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #ffffff 1px solid; COLOR: #666666; PADDING-TOP: 0px; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-COLOR: #cfd9e5
+}
+.wpsToolBarIconOn {
+	BORDER-RIGHT: #ffffff 0px; PADDING-RIGHT: 0px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 0px; FONT-SIZE: xx-small; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #ffffff 1px solid; COLOR: #666666; PADDING-TOP: 0px; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-COLOR: #3d67bb
+}
+.wpsToolBarLink {
+	FONT-SIZE: xx-small; COLOR: #666666; TEXT-DECORATION: none
+}
+.wpsToolBarLink:visited {
+	FONT-SIZE: xx-small; COLOR: #666666; TEXT-DECORATION: none
+}
+.wpsToolBarLink:hover {
+	FONT-SIZE: xx-small; COLOR: #666666; TEXT-DECORATION: none
+}
+.wpsToolBarLink:active {
+	FONT-SIZE: xx-small; COLOR: #666666; TEXT-DECORATION: none
+}
+.wpsToolBarSeparator {
+	BACKGROUND-COLOR: #ffffff
+}
+.wpsToolbarBannerBackground {
+	BORDER-RIGHT: #ffffff 0px; PADDING-RIGHT: 0px; BACKGROUND-POSITION: left bottom; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(../banner.jpg); PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #ffffff 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #cfd9e5
+}
+.wpsLinkBar {
+	COLOR: #ffffff; BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: #ffffff
+}
+.wpsLinkBarLink {
+	COLOR: #817279; TEXT-DECORATION: underline
+}
+.wpsLinkBarLink:visited {
+	COLOR: #817279; TEXT-DECORATION: underline
+}
+.wpsLinkBarLink:hover {
+	COLOR: #817279; TEXT-DECORATION: underline
+}
+.wpsLinkBarLink:active {
+	COLOR: #817279; TEXT-DECORATION: underline
+}
+.wpsPlaceBar {
+	COLOR: #ffffff; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: #8956a4
+}
+.wpsPlaceBarLink {
+	COLOR: #817279; TEXT-DECORATION: none
+}
+.wpsPlaceBarLink:visited {
+	COLOR: #817279; TEXT-DECORATION: none
+}
+.wpsPlaceBarLink:hover {
+	COLOR: #817279; TEXT-DECORATION: none
+}
+.wpsPlaceBarLink:active {
+	COLOR: #817279; TEXT-DECORATION: none
+}
+.wpsPlaceBar3dHighlight {
+	BACKGROUND-COLOR: #ff00ff
+}
+.wpsPlaceBar3dShadow {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-LEFT: #ffffff 0px; BACKGROUND-COLOR: #817279; TEXT-DECORATION: none;
+}
+.wpsSelectedPlace {
+	BORDER-RIGHT: #ffffff 1px solid; PADDING-RIGHT: 7px; PADDING-LEFT: 7px; PADDING-BOTTOM: 5px; MARGIN: 0px; BORDER-LEFT: #ffffff 0px; COLOR: #333333; PADDING-TOP: 5px; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.wpsSelectedPlace:visited {
+	BORDER-RIGHT: #ffffff 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #ffffff 0px; COLOR: #333333; PADDING-TOP: 2px; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.wpsSelectedPlace:hover {
+	BORDER-RIGHT: #ffffff 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #ffffff 0px; COLOR: #333333; PADDING-TOP: 2px; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.wpsSelectedPlace:active {
+	BORDER-RIGHT: #ffffff 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #ffffff 0px; COLOR: #999999; PADDING-TOP: 2px; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.wpsSelectedPlaceIcon {
+	BORDER-RIGHT: #ffffff 1px solid; PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #ffffff 0px; COLOR: #333333; PADDING-TOP: 0px; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.wpsSelectedPlaceLink {
+	COLOR: #00529F;
+	BACKGROUND-COLOR: #ffffff;
+	TEXT-DECORATION: none;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 12px;
+}
+.wpsSelectedPlaceLink:visited {
+	BACKGROUND-COLOR: #999999;
+	TEXT-DECORATION: none;
+	color: #FFFFFF;
+}
+.wpsSelectedPlaceLink:hover {
+	COLOR: #999999; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.wpsSelectedPlaceLink:active {
+	COLOR: #00529F; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.wpsSelectedPlace3dHighlight {
+	BACKGROUND-COLOR: #b6b7d3
+}
+.wpsSelectedPlace3dShadow {
+	BACKGROUND-COLOR: #5d5e96
+}
+.wpsUnSelectedPlace {
+	BORDER-RIGHT: #ffffff 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #ffffff 0px; COLOR: #ffffff; PADDING-TOP: 2px; BACKGROUND-COLOR: #3d67bb; TEXT-DECORATION: none
+}
+.wpsUnSelectedPlace:visited {
+	BORDER-RIGHT: #ffffff 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #ffffff 0px; COLOR: #ffffff; PADDING-TOP: 2px; BACKGROUND-COLOR: #3d67bb; TEXT-DECORATION: none
+}
+.wpsUnSelectedPlace:hover {
+	BORDER-RIGHT: #ffffff 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #ffffff 0px; COLOR: #ffffff; PADDING-TOP: 2px; BACKGROUND-COLOR: #3d67bb; TEXT-DECORATION: none
+}
+.wpsUnSelectedPlace:active {
+	BORDER-RIGHT: #ffffff 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #ffffff 0px; COLOR: #ffffff; PADDING-TOP: 2px; BACKGROUND-COLOR: #3d67bb; TEXT-DECORATION: none
+}
+.wpsUnSelectedPlaceLink {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.wpsUnSelectedPlaceLink:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.wpsUnSelectedPlaceLink:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.wpsUnSelectedPlaceLink:active {
+	COLOR: #ffffff; BACKGROUND-COLOR: #3d67bb; TEXT-DECORATION: none
+}
+.wpsUnSelectedPlace3dHighlight {
+	BACKGROUND-COLOR: #3d67bb
+}
+.wpsUnSelectedPlace3dShadow {
+	BACKGROUND-COLOR: #3d67bb
+}
+.wpsPageBar {
+	BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-COLOR: #cfd9e5
+}
+.wpsPageBarLink {
+	TEXT-DECORATION: none
+}
+.wpsPageBarLink:visited {
+	TEXT-DECORATION: none
+}
+.wpsPageBarLink:hover {
+	TEXT-DECORATION: none
+}
+.wpsPageBarLink:active {
+	TEXT-DECORATION: none
+}
+.wpsPageBar3dHighlight {
+	BACKGROUND-COLOR: #fd8c3e
+}
+.wpsPageBar3dShadow {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-LEFT: #ffffff 0px; BACKGROUND-COLOR: #9999bb; TEXT-DECORATION: none
+}
+.wpsSelectedPage {
+	BORDER-RIGHT: #ffffff 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #ffffff 0px; COLOR: #333333; PADDING-TOP: 2px; BACKGROUND-COLOR: #e5eff7; TEXT-DECORATION: none
+}
+.wpsSelectedPage:visited {
+	BORDER-RIGHT: #ffffff 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #ffffff 0px; COLOR: #333333; PADDING-TOP: 2px; BACKGROUND-COLOR: #e5eff7; TEXT-DECORATION: none
+}
+.wpsSelectedPage:hover {
+	BORDER-RIGHT: #ffffff 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #ffffff 0px; COLOR: #333333; PADDING-TOP: 2px; BACKGROUND-COLOR: #e5eff7; TEXT-DECORATION: none
+}
+.wpsSelectedPage:active {
+	BORDER-RIGHT: #ffffff 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #ffffff 0px; COLOR: #333333; PADDING-TOP: 2px; BACKGROUND-COLOR: #e5eff7; TEXT-DECORATION: none
+}
+.wpsSelectedPageIcon {
+	BORDER-RIGHT: #ffffff 1px solid; PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #ffffff 0px; COLOR: #333333; PADDING-TOP: 0px; BACKGROUND-COLOR: #e5eff7; TEXT-DECORATION: none
+}
+.wpsSelectedPageLink {
+	COLOR: #333333; BACKGROUND-COLOR: #e5eff7; TEXT-DECORATION: none
+}
+.wpsSelectedPageLink:visited {
+	COLOR: #333333; BACKGROUND-COLOR: #e5eff7; TEXT-DECORATION: none
+}
+.wpsSelectedPageLink:hover {
+	COLOR: #333333; BACKGROUND-COLOR: #e5eff7; TEXT-DECORATION: none
+}
+.wpsSelectedPageLink:active {
+	COLOR: #333333; BACKGROUND-COLOR: #e5eff7; TEXT-DECORATION: none
+}
+.wpsSelectedPage3dHighlight {
+	BACKGROUND-COLOR: #fd8c3e
+}
+.wpsSelectedPage3dShadow {
+	BACKGROUND-COLOR: #b74405
+}
+.wpsUnSelectedPage {
+	BORDER-RIGHT: #ffffff 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #ffffff 0px; COLOR: #4d4348; PADDING-TOP: 2px; BACKGROUND-COLOR: #c3cdd9; TEXT-DECORATION: none
+}
+.wpsUnSelectedPage:visited {
+	BORDER-RIGHT: #ffffff 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #ffffff 0px; COLOR: #4d4348; PADDING-TOP: 2px; BACKGROUND-COLOR: #c3cdd9; TEXT-DECORATION: none
+}
+.wpsUnSelectedPage:hover {
+	BORDER-RIGHT: #ffffff 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #ffffff 0px; COLOR: #4d4348; PADDING-TOP: 2px; BACKGROUND-COLOR: #c3cdd9; TEXT-DECORATION: none
+}
+.wpsUnSelectedPage:active {
+	BORDER-RIGHT: #ffffff 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #ffffff 0px; COLOR: #4d4348; PADDING-TOP: 2px; BACKGROUND-COLOR: #c3cdd9; TEXT-DECORATION: none
+}
+.wpsUnSelectedPageLink {
+	COLOR: #4d4348; BACKGROUND-COLOR: #c3cdd9; TEXT-DECORATION: none
+}
+.wpsUnSelectedPageLink:visited {
+	COLOR: #4d4348; BACKGROUND-COLOR: #c3cdd9; TEXT-DECORATION: none
+}
+.wpsUnSelectedPageLink:hover {
+	COLOR: #4d4348; BACKGROUND-COLOR: #c3cdd9; TEXT-DECORATION: none
+}
+.wpsUnSelectedPageLink:active {
+	COLOR: #4d4348; BACKGROUND-COLOR: #c3cdd9; TEXT-DECORATION: none
+}
+.wpsUnSelectedPage3dHighlight {
+	BACKGROUND-COLOR: #fd8c3e
+}
+.wpsUnSelectedPage3dShadow {
+	BACKGROUND-COLOR: #b74405
+}
+.wpsNavSelectedBranch {
+	COLOR: #333333; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.wpsNavSelectedBranch:visited {
+	COLOR: #333333; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.wpsNavSelectedBranch:hover {
+	COLOR: #333333; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.wpsNavSelectedBranch:active {
+	COLOR: #333333; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.wpsNavSelectedNode {
+	FONT-WEIGHT: bold; COLOR: #333333; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.wpsNavSelectedNode:visited {
+	FONT-WEIGHT: bold; COLOR: #333333; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.wpsNavSelectedNode:hover {
+	FONT-WEIGHT: bold; COLOR: #333333; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.wpsNavSelectedNode:active {
+	FONT-WEIGHT: bold; COLOR: #333333; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.wpsNavUnSelectedNode {
+	COLOR: #333333; BACKGROUND-COLOR: #efefef; TEXT-DECORATION: none
+}
+.wpsNavUnSelectedNode:visited {
+	COLOR: #333333; BACKGROUND-COLOR: #efefef; TEXT-DECORATION: none
+}
+.wpsNavUnSelectedNode:hover {
+	COLOR: #333333; BACKGROUND-COLOR: #efefef; TEXT-DECORATION: none
+}
+.wpsNavUnSelectedNode:active {
+	COLOR: #333333; BACKGROUND-COLOR: #efefef; TEXT-DECORATION: none
+}
+.wpsNavUnSelectableNode {
+	COLOR: #aaaaaa; BACKGROUND-COLOR: #efefef; TEXT-DECORATION: none
+}
+.wpsNavUnSelectableNode:visited {
+	COLOR: #aaaaaa; BACKGROUND-COLOR: #efefef; TEXT-DECORATION: none
+}
+.wpsNavUnSelectableNode:hover {
+	COLOR: #aaaaaa; BACKGROUND-COLOR: #efefef; TEXT-DECORATION: none
+}
+.wpsNavUnSelectableNode:active {
+	COLOR: #aaaaaa; BACKGROUND-COLOR: #efefef; TEXT-DECORATION: none
+}
+.wpsNavLevel1 {
+	FONT-WEIGHT: bold
+}
+.wpsNavNodeIcon {
+	WIDTH: 16px; HEIGHT: 16px
+}
+.wpsNavExpandCollapseIcon {
+	WIDTH: 14px; HEIGHT: 14px
+}
+.wpsPortletTitle {
+	COLOR: #333333; BACKGROUND-COLOR: #cfd9e5
+}
+.wpsPortletBorder {
+	BORDER-RIGHT: #cfd9e5 1px solid; BORDER-TOP: #cfd9e5 0px solid; BORDER-LEFT: #cfd9e5 1px solid; BORDER-BOTTOM: #cfd9e5 1px solid
+}
+
+.wpsPortletBorderTitle {
+	BORDER-RIGHT: #cfd9e5 1px solid; BORDER-TOP: #cfd9e5 1px solid; BORDER-LEFT: #cfd9e5 1px solid; BORDER-BOTTOM: #cfd9e5 0px solid
+}
+
+.wpsPortletTitleIconBackground {
+	BORDER-LEFT: #ffffff 1px solid; COLOR: #ffffff; BACKGROUND-COLOR: #a3b6cc
+}
+.wpsPortletTitleToolsIconBackground {
+	BORDER-LEFT: #ffffff 1px solid; COLOR: #ffffff; BACKGROUND-COLOR: #3d67bb
+}
+.wpsPortletTitleIcon {
+	WIDTH: 12px; HEIGHT: 12px
+}
+.wpsPortletTitleIconNonStandardSize {
+	
+}
+.wpsPortletTitleToolsIconNonStandardSize {
+	
+}
+.wpsTableAdminHead {
+	COLOR: #333333; BACKGROUND-COLOR: #cccccc
+}
+.wpsAdminHeadSeparator {
+	BACKGROUND-COLOR: #999999
+}
+.wpsStatusMsg {
+	BORDER-RIGHT: #b0a8a8 1px solid; BORDER-TOP: #b0a8a8 1px solid; MARGIN: 0px; BORDER-LEFT: #b0a8a8 1px solid; COLOR: #000000; BORDER-BOTTOM: #b0a8a8 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.wpsInstructionText {
+	MARGIN: 0.6em 0px 0px; COLOR: #405380
+}
+.wpsInstructionText EM {
+	FONT-WEIGHT: bold; COLOR: #8a59a6; FONT-STYLE: normal
+}
+.wpsInstructionHeadText {
+	FONT-WEIGHT: bold; FONT-SIZE: small; COLOR: #405380
+}
+.wpsIndentXSmall {
+	PADDING-LEFT: 4px
+}
+.wpsIndentSmall {
+	PADDING-LEFT: 8px
+}
+.wpsIndentMedium {
+	PADDING-LEFT: 16px
+}
+.wpsIndentLarge {
+	PADDING-LEFT: 32px
+}
+.wpsIndentXLarge {
+	PADDING-LEFT: 48px
+}
+.wpsTaskIconText {
+	FONT-WEIGHT: bold; COLOR: #001f66; WHITE-SPACE: nowrap
+}
+.portlet-dlg-icon-label {
+	FONT-WEIGHT: bold; COLOR: #001f66; WHITE-SPACE: nowrap
+}
+.wpsTaskDisabledIconText {
+	FONT-WEIGHT: bold; COLOR: #99a7bf; WHITE-SPACE: nowrap
+}
+.wpsTaskIconBorderTable {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.wpsTaskDisabledIconBorderTable {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.wpsTaskIconTextBackground {
+	BORDER-RIGHT: #405380 1px solid; PADDING-RIGHT: 4px; BACKGROUND-POSITION: left center; BORDER-TOP: #405380 1px solid; PADDING-LEFT: 4px; BACKGROUND-IMAGE: url(../ButtonBackground.gif); PADDING-BOTTOM: 2px; MARGIN: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: #405380 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #405380 1px solid; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #c3d3e6; TEXT-ALIGN: center
+}
+.wpsTaskDisabledIconTextBackground {
+	BORDER-RIGHT: #99a7bf 1px solid; PADDING-RIGHT: 4px; BACKGROUND-POSITION: left center; BORDER-TOP: #99a7bf 1px solid; PADDING-LEFT: 4px; BACKGROUND-IMAGE: url(../ButtonBackground.gif); PADDING-BOTTOM: 2px; MARGIN: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: #99a7bf 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #99a7bf 1px solid; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #c1d1e2; TEXT-ALIGN: center
+}
+.wpsDialogIconText {
+	COLOR: #001f66
+}
+.portlet-icon-label {
+	COLOR: #001f66
+}
+.wpsDialogDisabledIconText {
+	COLOR: #99a7bf
+}
+.wpsDialogIconBackground {
+	BORDER-RIGHT: #405380 0px; PADDING-RIGHT: 0px; BACKGROUND-POSITION: left center; BORDER-TOP: #405380 1px solid; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(../DialogIconBackground.gif); PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: #405380 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #405380 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #c3d3e6; TEXT-ALIGN: center
+}
+.wpsDialogIconTextBackground {
+	BORDER-RIGHT: #405380 1px solid; PADDING-RIGHT: 4px; BACKGROUND-POSITION: left center; BORDER-TOP: #405380 1px solid; PADDING-LEFT: 4px; BACKGROUND-IMAGE: url(../DialogIconTextBackground.gif); PADDING-BOTTOM: 2px; MARGIN: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: #405380 0px; PADDING-TOP: 2px; BORDER-BOTTOM: #405380 1px solid; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #c3d3e6; TEXT-ALIGN: center
+}
+.wpsDialogDisabledIconBackground {
+	BORDER-RIGHT: #99a7bf 0px; PADDING-RIGHT: 0px; BACKGROUND-POSITION: left center; BORDER-TOP: #99a7bf 1px solid; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(../DialogIconBackground.gif); PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: #99a7bf 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #99a7bf 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #c1d1e2; TEXT-ALIGN: center
+}
+.wpsDialogDisabledIconTextBackground {
+	BORDER-RIGHT: #99a7bf 1px solid; PADDING-RIGHT: 4px; BACKGROUND-POSITION: left center; BORDER-TOP: #99a7bf 1px solid; PADDING-LEFT: 4px; BACKGROUND-IMAGE: url(../DialogIconTextBackground.gif); PADDING-BOTTOM: 2px; MARGIN: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: #99a7bf 0px; PADDING-TOP: 2px; BORDER-BOTTOM: #99a7bf 1px solid; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #c1d1e2; TEXT-ALIGN: center
+}
+.wpsDialogIcon {
+	WIDTH: 16px; HEIGHT: 16px
+}
+.wpsButtonBarTop {
+	BACKGROUND-COLOR: #dfdfdf
+}
+.wpsButtonBarBottom {
+	BACKGROUND-COLOR: #dfdfdf
+}
+.wpsPortletBack {
+	BACKGROUND-COLOR: #ffffff
+}
+.wpsEditBack {
+	BACKGROUND-COLOR: #ffffff
+}
+.wpsConfigureBack {
+	BACKGROUND-COLOR: #ffffff
+}
+.wpsAdvancedOptions {
+	BORDER-RIGHT: #4a4a4a 1px solid; BORDER-TOP: #4a4a4a 1px solid; MARGIN-LEFT: 10px; BORDER-LEFT: #4a4a4a 1px solid; BORDER-BOTTOM: #4a4a4a 1px solid; BACKGROUND-COLOR: #e4e4e4
+}
+.wpsPortletColorBack {
+	BACKGROUND-COLOR: #cccccc
+}
+.wpsPortletHead {
+	FONT-WEIGHT: bold; COLOR: #333333
+}
+.wpsEditHead {
+	FONT-WEIGHT: bold; COLOR: #333333
+}
+.portlet-section-header {
+	FONT-WEIGHT: bold; COLOR: #333333
+}
+.wpsPortletText {
+	COLOR: #333333
+}
+.wpsEditText {
+	COLOR: #333333
+}
+.wpsPortletSmText {
+	COLOR: #333333
+}
+.wpsEditSmText {
+	COLOR: #333333
+}
+.wpsPortletTinyText {
+	COLOR: #333333
+}
+.portlet-font {
+	COLOR: #333333
+}
+.wpsCopyrightText {
+	FONT-SIZE: xx-small; COLOR: #999999
+}
+.wpsPortletBody {
+	
+}
+.portlet-section-body {
+	
+}
+.portlet-section-alternate {
+	
+}
+.portlet-section-selected {
+	
+}
+.portlet-section-footer {
+	
+}
+.portlet-section-subheader {
+	COLOR: #333333
+}
+.wpsTableHead {
+	FONT-WEIGHT: bold; COLOR: #989898; TEXT-ALIGN: left
+}
+.wpsTableHead TH {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.wpsTableText {
+	
+}
+portlet-table-text {
+	
+}
+.wpsTableRow {
+	COLOR: #333333; BACKGROUND-COLOR: #ffffff
+}
+.wpsTableNrmRow {
+	COLOR: #333333; BACKGROUND-COLOR: #ffffff
+}
+.wpsTableSelectedRow {
+	COLOR: #333333; BACKGROUND-COLOR: #c5d1de
+}
+.portlet-table-selected {
+	COLOR: #333333; BACKGROUND-COLOR: #c5d1de
+}
+.wpsTableShdRow {
+	COLOR: #333333
+}
+.portlet-table-alternate {
+	COLOR: #333333
+}
+.wpsTableRow TD {
+	BORDER-RIGHT: #aaaaaa 0px solid; PADDING-RIGHT: 3px; BORDER-TOP: #aaaaaa 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #aaaaaa 0px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #aaaaaa 0px solid
+}
+.wpsTableNrmRow TD {
+	BORDER-RIGHT: #aaaaaa 0px solid; PADDING-RIGHT: 3px; BORDER-TOP: #aaaaaa 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #aaaaaa 0px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #aaaaaa 0px solid
+}
+.wpsTableShdRow TD {
+	BORDER-RIGHT: #aaaaaa 0px solid; PADDING-RIGHT: 3px; BORDER-TOP: #aaaaaa 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #aaaaaa 0px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #aaaaaa 0px solid
+}
+.wpsTableHeadLink {
+	FONT-WEIGHT: bold; COLOR: #989898
+}
+.wpsTableHeadLink:visited {
+	FONT-WEIGHT: bold; COLOR: #989898
+}
+.wpsTableHeadLink:hover {
+	FONT-WEIGHT: bold; COLOR: #989898
+}
+.wpsTableHeadLink:active {
+	FONT-WEIGHT: bold; COLOR: #989898
+}
+.wpsTable {
+	BORDER-RIGHT: #aaaaaa 1px solid; BORDER-TOP: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 1px solid; BORDER-BOTTOM: #aaaaaa 1px solid
+}
+.wpsTable TD {
+	VERTICAL-ALIGN: top
+}
+.wpsTableHeadStart {
+	BORDER-RIGHT: #aaaaaa 0px; BORDER-TOP: #aaaaaa 0px; FONT-WEIGHT: bold; BORDER-LEFT: #aaaaaa 0px; COLOR: #989898; BORDER-BOTTOM: #aaaaaa 0px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left
+}
+.wpsTableHeadMiddle {
+	BORDER-RIGHT: #aaaaaa 0px; BORDER-TOP: #aaaaaa 0px; FONT-WEIGHT: bold; BORDER-LEFT: #aaaaaa 0px; COLOR: #989898; BORDER-BOTTOM: #aaaaaa 0px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left
+}
+.wpsTableHeadEnd {
+	BORDER-RIGHT: #aaaaaa 0px; BORDER-TOP: #aaaaaa 0px; FONT-WEIGHT: bold; BORDER-LEFT: #aaaaaa 0px; COLOR: #989898; BORDER-BOTTOM: #aaaaaa 0px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left
+}
+portlet-table-header {
+	BORDER-RIGHT: #aaaaaa 0px; BORDER-TOP: #aaaaaa 0px; FONT-WEIGHT: bold; BORDER-LEFT: #aaaaaa 0px; COLOR: #989898; BORDER-BOTTOM: #aaaaaa 0px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left
+}
+.wpsTableHeadStartAlignCenter {
+	BORDER-RIGHT: #aaaaaa 0px; BORDER-TOP: #aaaaaa 0px; FONT-WEIGHT: bold; BORDER-LEFT: #aaaaaa 0px; COLOR: #989898; BORDER-BOTTOM: #aaaaaa 0px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+.wpsTableHeadMiddleAlignCenter {
+	BORDER-RIGHT: #aaaaaa 0px; BORDER-TOP: #aaaaaa 0px; FONT-WEIGHT: bold; BORDER-LEFT: #aaaaaa 0px; COLOR: #989898; BORDER-BOTTOM: #aaaaaa 0px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+.wpsTableHeadEndAlignCenter {
+	BORDER-RIGHT: #aaaaaa 0px; BORDER-TOP: #aaaaaa 0px; FONT-WEIGHT: bold; BORDER-LEFT: #aaaaaa 0px; COLOR: #989898; BORDER-BOTTOM: #aaaaaa 0px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+.wpsTableHeadStartNumeric {
+	BORDER-RIGHT: #aaaaaa 0px; BORDER-TOP: #aaaaaa 0px; FONT-WEIGHT: bold; BORDER-LEFT: #aaaaaa 0px; COLOR: #989898; BORDER-BOTTOM: #aaaaaa 0px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: right
+}
+.wpsTableHeadMiddleNumeric {
+	BORDER-RIGHT: #aaaaaa 0px; BORDER-TOP: #aaaaaa 0px; FONT-WEIGHT: bold; BORDER-LEFT: #aaaaaa 0px; COLOR: #989898; BORDER-BOTTOM: #aaaaaa 0px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: right
+}
+.wpsTableHeadEndNumeric {
+	BORDER-RIGHT: #aaaaaa 0px; BORDER-TOP: #aaaaaa 0px; FONT-WEIGHT: bold; BORDER-LEFT: #aaaaaa 0px; COLOR: #989898; BORDER-BOTTOM: #aaaaaa 0px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: right
+}
+.wpsTableDataStart {
+	BORDER-RIGHT: #aaaaaa 0px solid; BORDER-TOP: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 0px solid; BORDER-BOTTOM: #aaaaaa 0px solid; TEXT-ALIGN: left
+}
+.wpsTableDataMiddle {
+	BORDER-RIGHT: #aaaaaa 0px solid; BORDER-TOP: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 0px solid; BORDER-BOTTOM: #aaaaaa 0px solid; TEXT-ALIGN: left
+}
+.wpsTableDataEnd {
+	BORDER-RIGHT: #aaaaaa 0px solid; BORDER-TOP: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 0px solid; BORDER-BOTTOM: #aaaaaa 0px solid; TEXT-ALIGN: left
+}
+portlet-table-body {
+	BORDER-RIGHT: #aaaaaa 0px solid; BORDER-TOP: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 0px solid; BORDER-BOTTOM: #aaaaaa 0px solid; TEXT-ALIGN: left
+}
+.wpsTableDataStartAlignCenter {
+	BORDER-RIGHT: #aaaaaa 0px solid; BORDER-TOP: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 0px solid; BORDER-BOTTOM: #aaaaaa 0px solid; TEXT-ALIGN: center
+}
+.wpsTableDataMiddleAlignCenter {
+	BORDER-RIGHT: #aaaaaa 0px solid; BORDER-TOP: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 0px solid; BORDER-BOTTOM: #aaaaaa 0px solid; TEXT-ALIGN: center
+}
+.wpsTableDataEndAlignCenter {
+	BORDER-RIGHT: #aaaaaa 0px solid; BORDER-TOP: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 0px solid; BORDER-BOTTOM: #aaaaaa 0px solid; TEXT-ALIGN: center
+}
+.wpsTableDataStartNumeric {
+	BORDER-RIGHT: #aaaaaa 0px solid; BORDER-TOP: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 0px solid; BORDER-BOTTOM: #aaaaaa 0px solid; TEXT-ALIGN: right
+}
+.wpsTableDataMiddleNumeric {
+	BORDER-RIGHT: #aaaaaa 0px solid; BORDER-TOP: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 0px solid; BORDER-BOTTOM: #aaaaaa 0px solid; TEXT-ALIGN: right
+}
+.wpsTableDataEndNumeric {
+	BORDER-RIGHT: #aaaaaa 0px solid; BORDER-TOP: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 0px solid; BORDER-BOTTOM: #aaaaaa 0px solid; TEXT-ALIGN: right
+}
+.portlet-table-footer {
+	
+}
+.wpsPagingTable {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.wpsPagingTableHeader {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.wpsPagingTableFooter {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.wpsPagingTableBody {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.wpsPagingTableHeaderIcon {
+	WIDTH: 16px; HEIGHT: 16px
+}
+.wpsPagingTableFooterIcon {
+	WIDTH: 16px; HEIGHT: 16px
+}
+.wpsPagingTableHeaderStart {
+	BORDER-RIGHT: #aaaaaa 0px; BORDER-TOP: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 1px solid; BORDER-BOTTOM: #aaaaaa 0px; BACKGROUND-COLOR: #c5d1de
+}
+.wpsPagingTableHeaderMiddle {
+	BORDER-RIGHT: #aaaaaa 0px; BORDER-TOP: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 0px; BORDER-BOTTOM: #aaaaaa 0px; BACKGROUND-COLOR: #c5d1de
+}
+.wpsPagingTableHeaderEnd {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(../PagingTableTopRight.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: transparent
+}
+.wpsPagingTableFooterStart {
+	BORDER-RIGHT: #aaaaaa 0px; BORDER-TOP: #aaaaaa 0px; BORDER-LEFT: #aaaaaa 1px solid; BORDER-BOTTOM: #aaaaaa 1px solid; BACKGROUND-COLOR: #c5d1de
+}
+.wpsPagingTableFooterMiddle {
+	BORDER-RIGHT: #aaaaaa 0px; BORDER-TOP: #aaaaaa 0px; BORDER-LEFT: #aaaaaa 0px; BORDER-BOTTOM: #aaaaaa 1px solid; BACKGROUND-COLOR: #c5d1de
+}
+.wpsPagingTableFooterEnd {
+	BACKGROUND-POSITION: right bottom; BACKGROUND-IMAGE: url(../PagingTableBottomRight.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: transparent
+}
+.wpsPagingTableHeaderEmpty {
+	WIDTH: 7px; LINE-HEIGHT: 1px; HEIGHT: 7px
+}
+.wpsTableRowDetail TD {
+	BORDER-TOP-WIDTH: 0px! important; PADDING-RIGHT: 3px; PADDING-LEFT: 3px; BORDER-LEFT-WIDTH: 0px! important; BORDER-BOTTOM-WIDTH: 0px! important; PADDING-BOTTOM: 5px; PADDING-TOP: 2px; TEXT-ALIGN: left; BORDER-RIGHT-WIDTH: 0px! important
+}
+.wpsTableSectionHead {
+	FONT-WEIGHT: bold; COLOR: #000000; TEXT-ALIGN: left
+}
+portlet-table-subheader {
+	FONT-WEIGHT: bold; COLOR: #000000; TEXT-ALIGN: left
+}
+.wpsTableSectionHead TH {
+	BORDER-RIGHT: #aaaaaa 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: #aaaaaa 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 3px; BORDER-LEFT: #aaaaaa 0px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #aaaaaa 0px solid
+}
+.wpsTableTopRow TD {
+	BORDER-LEFT-COLOR: #aaaaaa! important; BORDER-BOTTOM-COLOR: #aaaaaa! important; BORDER-TOP-COLOR: #aaaaaa! important; BORDER-RIGHT-COLOR: #aaaaaa! important
+}
+.wpsPagingTableHeaderEmpty {
+	WIDTH: 7px; LINE-HEIGHT: 1px; HEIGHT: 7px
+}
+.wpsTableRowDetail TD {
+	BORDER-TOP-WIDTH: 0px! important; PADDING-RIGHT: 3px; PADDING-LEFT: 3px; BORDER-LEFT-WIDTH: 0px! important; BORDER-BOTTOM-WIDTH: 0px! important; PADDING-BOTTOM: 5px; PADDING-TOP: 2px; TEXT-ALIGN: left; BORDER-RIGHT-WIDTH: 0px! important
+}
+.wpsCompactCheckBox {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; HEIGHT: 16px
+}
+.wpsCompactRadioButton {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; HEIGHT: 16px
+}
+.wpsEditField {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid
+}
+.portlet-form-input-field {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid
+}
+.wpsButtonText {
+	BORDER-RIGHT: #405380 1px solid; PADDING-RIGHT: 4px; BACKGROUND-POSITION: left center; BORDER-TOP: #405380 1px solid; PADDING-LEFT: 4px; FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(../ButtonBackground.gif); PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #405380 1px solid; COLOR: #001f66; PADDING-TOP: 2px; BORDER-BOTTOM: #405380 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #c3d3e6; TEXT-ALIGN: center
+}
+.portlet-form-button {
+	BORDER-RIGHT: #405380 1px solid; PADDING-RIGHT: 4px; BACKGROUND-POSITION: left center; BORDER-TOP: #405380 1px solid; PADDING-LEFT: 4px; FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(../ButtonBackground.gif); PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #405380 1px solid; COLOR: #001f66; PADDING-TOP: 2px; BORDER-BOTTOM: #405380 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #c3d3e6; TEXT-ALIGN: center
+}
+.wpsButtonDisabledText {
+	BORDER-RIGHT: #99a7bf 1px solid; PADDING-RIGHT: 4px; BACKGROUND-POSITION: left center; BORDER-TOP: #99a7bf 1px solid; PADDING-LEFT: 4px; FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(../ButtonBackground.gif); PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #99a7bf 1px solid; COLOR: #99a7bf; PADDING-TOP: 2px; BORDER-BOTTOM: #99a7bf 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #c1d1e2; TEXT-ALIGN: center
+}
+.wpsBrowseButton {
+	
+}
+.wpsLabelText {
+	COLOR: #333333
+}
+.portlet-form-field {
+	COLOR: #333333
+}
+.portlet-form-field-label {
+	COLOR: #333333
+}
+wpsRequiredLabelText {
+	COLOR: #333333
+}
+.wpsRequiredLabelText STRONG {
+	COLOR: #ff0000
+}
+.wpsDescriptionText {
+	COLOR: #808080
+}
+.portlet-font-dim {
+	COLOR: #808080
+}
+.portlet-form-label {
+	COLOR: #333333
+}
+.wpsFieldErrorText {
+	COLOR: #c83030
+}
+.portlet-msg-error {
+	COLOR: #c83030
+}
+.wpsFieldWarningText {
+	COLOR: #333333
+}
+.portlet-msg-alert {
+	COLOR: #333333
+}
+.wpsFieldSuccessText {
+	COLOR: #333333
+}
+.portlet-msg-success {
+	COLOR: #333333
+}
+.wpsFieldInfoText {
+	COLOR: #999999
+}
+.portlet-msg-info {
+	COLOR: #999999
+}
+.wpsInlineHelpText {
+	COLOR: #666666
+}
+.portlet-section-text {
+	COLOR: #666666
+}
+.portlet-msg-status {
+	COLOR: #333333
+}
+.wpsFieldMonospaced {
+	FONT-SIZE: x-small; FONT-FAMILY: monospace
+}
+.wpsFlagText {
+	FONT-SIZE: xx-small; COLOR: #ff0000
+}
+.portlet-menu {
+	BORDER-RIGHT: #333333 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #333333 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #333333 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #333333 1px solid; BACKGROUND-COLOR: #eeeeee
+}
+.portlet-menu-item {
+	BORDER-RIGHT: #333333 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #333333 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #333333 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #333333 1px solid; BACKGROUND-COLOR: #eeeeee
+}
+.portlet-menu-item-selected {
+	BORDER-RIGHT: #333333 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #333333 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #333333 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #333333 1px solid; BACKGROUND-COLOR: #aaaaaa
+}
+.portlet-menu-item-hover {
+	BORDER-RIGHT: #333333 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #333333 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #333333 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #333333 1px solid; BACKGROUND-COLOR: #cccccc
+}
+.portlet-menu-item-hover-selected {
+	BORDER-RIGHT: #333333 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #333333 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #333333 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #333333 1px solid; BACKGROUND-COLOR: #cccccc
+}
+.portlet-menu-cascade-item {
+	BORDER-RIGHT: #333333 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #333333 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #333333 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #333333 1px solid; BACKGROUND-COLOR: #eeeeee
+}
+.portlet-menu-cascade-item-selected {
+	BORDER-RIGHT: #333333 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #333333 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #333333 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #333333 1px solid; BACKGROUND-COLOR: #cccccc
+}
+.portlet-menu-description {
+	
+}
+.portlet-menu-caption {
+	BORDER-RIGHT: #333333 1px solid; BORDER-TOP: #333333 1px solid; BORDER-LEFT: #333333 1px solid; BORDER-BOTTOM: #333333 1px solid
+}
+.wpsPortletTabBar {
+	
+}
+.wpsPortletTabBarSeparator {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: 3px; BACKGROUND-COLOR: #95a5b9
+}
+.wpsPortletTabSet {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; BACKGROUND-COLOR: transparent
+}
+.wpsPortletTab {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; BACKGROUND-COLOR: transparent
+}
+.wpsPortletSelectedTab {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; BACKGROUND-COLOR: transparent
+}
+.wpsPortletTabTopStart {
+	BORDER-RIGHT: #95a5b9 0px; PADDING-RIGHT: 2px; BORDER-TOP: #95a5b9 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; BORDER-LEFT: #95a5b9 1px solid; WIDTH: 5px; PADDING-TOP: 0px; BORDER-BOTTOM: #95a5b9 0px; HEIGHT: 5px; BACKGROUND-COLOR: #e5ecf3
+}
+.wpsPortletTabTopCenter {
+	BORDER-RIGHT: #95a5b9 0px; BORDER-TOP: #95a5b9 1px solid; BORDER-LEFT: #95a5b9 0px; BORDER-BOTTOM: #95a5b9 0px; BACKGROUND-COLOR: #e5ecf3
+}
+.wpsPortletTabTopEnd {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; BACKGROUND: url(../PortletTabTopRight.gif) no-repeat right top; PADDING-BOTTOM: 0px; WIDTH: 5px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 5px; BORDER-BOTTOM-STYLE: none
+}
+.wpsPortletTabMiddleStart {
+	BORDER-RIGHT: #95a5b9 0px; BORDER-TOP: #95a5b9 0px; BORDER-LEFT: #95a5b9 1px solid; BORDER-BOTTOM: #95a5b9 0px; BACKGROUND-COLOR: #e5ecf3
+}
+.wpsPortletTabMiddleCenter {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; WHITE-SPACE: nowrap; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: #e5ecf3; BORDER-BOTTOM-STYLE: none
+}
+.wpsPortletTabMiddleEnd {
+	BORDER-RIGHT: #95a5b9 1px solid; BORDER-TOP: #95a5b9 0px; BORDER-LEFT: #95a5b9 0px; BORDER-BOTTOM: #95a5b9 0px; BACKGROUND-COLOR: #e5ecf3
+}
+.wpsPortletTabBottomStart {
+	BORDER-RIGHT: #95a5b9 0px; BORDER-TOP: #95a5b9 0px; BORDER-LEFT: #95a5b9 1px solid; WIDTH: 5px; BORDER-BOTTOM: #95a5b9 0px; HEIGHT: 5px; BACKGROUND-COLOR: #e5ecf3
+}
+.wpsPortletTabBottomCenter {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: #e5ecf3; BORDER-BOTTOM-STYLE: none
+}
+.wpsPortletTabBottomEnd {
+	BORDER-RIGHT: #95a5b9 1px solid; BORDER-TOP: #95a5b9 0px; BORDER-LEFT: #95a5b9 0px; WIDTH: 5px; BORDER-BOTTOM: #95a5b9 0px; HEIGHT: 5px; BACKGROUND-COLOR: #e5ecf3
+}
+.wpsPortletSelectedTabTopStart {
+	BORDER-RIGHT: #95a5b9 0px; PADDING-RIGHT: 2px; BORDER-TOP: #95a5b9 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; BORDER-LEFT: #95a5b9 1px solid; WIDTH: 5px; PADDING-TOP: 0px; BORDER-BOTTOM: #95a5b9 0px; HEIGHT: 5px; BACKGROUND-COLOR: #95a5b9
+}
+.wpsPortletSelectedTabTopCenter {
+	BORDER-RIGHT: #95a5b9 0px; BORDER-TOP: #95a5b9 1px solid; BORDER-LEFT: #95a5b9 0px; BORDER-BOTTOM: #95a5b9 0px; BACKGROUND-COLOR: #95a5b9
+}
+.wpsPortletSelectedTabTopEnd {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; BACKGROUND: url(../PortletSelectedTabTopRight.gif) no-repeat right top; PADDING-BOTTOM: 0px; WIDTH: 5px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 5px; BORDER-BOTTOM-STYLE: none
+}
+.wpsPortletSelectedTabMiddleStart {
+	BORDER-RIGHT: #95a5b9 0px; BORDER-TOP: #95a5b9 0px; BORDER-LEFT: #95a5b9 1px solid; BORDER-BOTTOM: #95a5b9 0px; BACKGROUND-COLOR: #95a5b9
+}
+.wpsPortletSelectedTabMiddleCenter {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; WHITE-SPACE: nowrap; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: #95a5b9; BORDER-BOTTOM-STYLE: none
+}
+.wpsPortletSelectedTabMiddleEnd {
+	BORDER-RIGHT: #95a5b9 1px solid; BORDER-TOP: #95a5b9 0px; BORDER-LEFT: #95a5b9 1px solid; BORDER-BOTTOM: #95a5b9 0px; BACKGROUND-COLOR: #95a5b9
+}
+.wpsPortletSelectedTabBottomStart {
+	BORDER-RIGHT: #95a5b9 0px; BORDER-TOP: #95a5b9 0px; BORDER-LEFT: #95a5b9 1px solid; WIDTH: 5px; BORDER-BOTTOM: #95a5b9 0px; HEIGHT: 5px; BACKGROUND-COLOR: #95a5b9
+}
+.wpsPortletSelectedTabBottomCenter {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: #95a5b9; BORDER-BOTTOM-STYLE: none
+}
+.wpsPortletSelectedTabBottomEnd {
+	BORDER-RIGHT: #95a5b9 1px solid; BORDER-TOP: #95a5b9 0px; BORDER-LEFT: #95a5b9 0px; WIDTH: 5px; BORDER-BOTTOM: #95a5b9 0px; HEIGHT: 5px; BACKGROUND-COLOR: #95a5b9
+}
+.wpsPortletTabLink {
+	COLOR: #333333
+}
+.wpsPortletTabLink:visited {
+	COLOR: #333333
+}
+.wpsPortletTabLink:active {
+	COLOR: #333333
+}
+.wpsPortletTabLink:hover {
+	COLOR: #333333
+}
+.wpsPortletSelectedTabLink {
+	COLOR: #ffffff
+}
+.wpsPortletSelectedTabLink:hover {
+	COLOR: #ffffff
+}
+.wpsPortletSelectedTabLink:visited {
+	COLOR: #ffffff
+}
+.wpsPortletSelectedTabLink:active {
+	COLOR: #ffffff
+}
+.wpsPortletToolbar {
+	BORDER-RIGHT: #95a5b9 1px solid; BORDER-TOP: #e4edf5 1px solid; BORDER-LEFT: #e4edf5 1px solid; BORDER-BOTTOM: #95a5b9 1px solid; BACKGROUND-COLOR: #c5d1de
+}
+.wpsPortletToolbarSection {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.wpsPortletToolbarSet {
+	
+}
+.wpsPortletToolbarButton {
+	BORDER-RIGHT: #c5d1de 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #c5d1de 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #c5d1de 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #c5d1de 1px solid; BACKGROUND-COLOR: #c5d1de
+}
+.wpsPortletToolbarButtonRollover {
+	BORDER-RIGHT: #95a5b9 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #e4edf5 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #e4edf5 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #95a5b9 1px solid; BACKGROUND-COLOR: #c5d1de
+}
+.wpsPortletToolbarButtonPressed {
+	BORDER-RIGHT: #e4edf5 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #95a5b9 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #95a5b9 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #e4edf5 1px solid; BACKGROUND-COLOR: #dadfe5
+}
+.wpsPortletToolbarButtonSelected {
+	BORDER-RIGHT: #e4edf5 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #95a5b9 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #95a5b9 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #e4edf5 1px solid; BACKGROUND-COLOR: #aeb8c4
+}
+.wpsPortletToolbarButtonSelectedRollover {
+	BORDER-RIGHT: #95a5b9 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #e4edf5 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #e4edf5 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #95a5b9 1px solid; BACKGROUND-COLOR: #aeb8c4
+}
+.wpsPortletToolbarButtonIcon {
+	WIDTH: 16px; HEIGHT: 16px
+}
+.wpsPortletToolbarControl {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.wpsPortletToolbarText {
+	COLOR: #333333
+}
+.wpsPortletToolbarDisabledText {
+	COLOR: #999999
+}
+.wpsPortletToolbarLink {
+	COLOR: #333333
+}
+.wpsPortletToolbarLink:hover {
+	COLOR: #333333
+}
+.wpsPortletToolbarLink:visited {
+	COLOR: #333333
+}
+.wpsPortletToolbarLink:active {
+	COLOR: #333333
+}
+.wpsPortletToolbarSeparator {
+	BORDER-RIGHT: #e4edf5 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #95a5b9 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #95a5b9 0px; WIDTH: 1px; PADDING-TOP: 0px; BORDER-BOTTOM: #e4edf5 0px; BACKGROUND-COLOR: #95a5b9
+}
+.wpsPortletToolbarSpacer {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.wpsPortletToolbarHandle {
+	BORDER-RIGHT: #95a5b9 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #e4edf5 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #e4edf5 1px solid; WIDTH: 1px; PADDING-TOP: 0px; BORDER-BOTTOM: #95a5b9 1px solid; BACKGROUND-COLOR: #c5d1de
+}
+.wpsBreadcrumbTrail {
+	FONT-WEIGHT: bold
+}
+.wpsBreadcrumbTrailLink {
+	FONT-WEIGHT: bold; COLOR: #3366cc; TEXT-DECORATION: underline
+}
+.wpsBreadcrumbTrailLink:hover {
+	FONT-WEIGHT: bold; COLOR: #3366cc; TEXT-DECORATION: underline
+}
+.wpsBreadcrumbTrailLink:visited {
+	FONT-WEIGHT: bold; COLOR: #3366cc; TEXT-DECORATION: underline
+}
+.wpsBreadcrumbTrailLink:active {
+	FONT-WEIGHT: bold; COLOR: #3366cc; TEXT-DECORATION: underline
+}
+.wpsPortletAccentArea {
+	COLOR: #333333; BACKGROUND-COLOR: #c5d1de
+}
+.wpsPortletAccentArea3DHighlight {
+	COLOR: #333333; BACKGROUND-COLOR: #e4edf5
+}
+.wpsPortletAccentArea3DShadow {
+	COLOR: #333333; BACKGROUND-COLOR: #95a5b9
+}
+.wpsWizardTitle {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; PADDING-BOTTOM: 5px; COLOR: black; PADDING-TOP: 5px; BACKGROUND-COLOR: #c1c1c1
+}
+.wpsWizardStepNotification {
+	PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; COLOR: black; PADDING-TOP: 5px; BACKGROUND-COLOR: #dfdfdf
+}
+.wpsWizardBottomSubmit {
+	PADDING-LEFT: 5px; PADDING-BOTTOM: 25px; COLOR: black; PADDING-TOP: 5px; BACKGROUND-COLOR: #c1c1c1
+}
+.wpsCursorPointer {
+	CURSOR: hand
+}
+.weekday_header {
+	FONT-SIZE: x-small; COLOR: #333333; BACKGROUND-COLOR: #999999
+}
+.other_month_header {
+	COLOR: #7e7001; HEIGHT: 20px; BACKGROUND-COLOR: #e4e3e3
+}
+.current_month_header {
+	COLOR: #333333; HEIGHT: 20px; BACKGROUND-COLOR: #cbdbf3
+}
+.other_month_cell {
+	BACKGROUND-COLOR: #f0f0f0
+}
+.current_month_cell {
+	COLOR: black; BACKGROUND-COLOR: #ffffff
+}
+.current_day_header {
+	FONT-SIZE: x-small; COLOR: #333333; HEIGHT: 20px; BACKGROUND-COLOR: #92b5e6
+}
+A.current_day_header:link {
+	COLOR: #333333; BACKGROUND-COLOR: transparent
+}
+A.other_month_header:link {
+	COLOR: #0000ff; BACKGROUND-COLOR: transparent
+}
+A.current_month_header:link {
+	COLOR: #0050c9; BACKGROUND-COLOR: transparent
+}
+A.wpsPersonName {
+	COLOR: #3366cc; WHITE-SPACE: nowrap; TEXT-DECORATION: none
+}
+A.wpsPersonName:visited {
+	COLOR: #666699; WHITE-SPACE: nowrap; TEXT-DECORATION: none
+}
+A.wpsPersonName:hover {
+	COLOR: #666699; WHITE-SPACE: nowrap; TEXT-DECORATION: underline
+}

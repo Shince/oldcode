@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/query.do" location="45,510" dimension="334,84" />
+  <StrutsActivity path="/pagination.do" location="-345,15" dimension="364,84" />
+  <StrutsActivity path="/initial.do" location="375,-90" dimension="346,84" />
+  <StrutsActivity path="/customer.do" location="180,45" dimension="352,84" />
+  <StrutsActivity path="/updatePmr.do" location="-345,225" dimension="358,84" />
+  <StrutsActivity path="/genTable.do" location="630,420" dimension="391,84" />
+  <StrutsActivity path="/categoryManage.do" location="360,750" dimension="388,84" />
+  <StrutsActivity path="/visibleSelect.do" location="-270,-105" dimension="382,84" />
+  <StrutsActivity path="/assignWork.do" location="1245,195" dimension="364,84" />
+  <StrutsActivity path="生成报表;6" location="-405,420" dimension="178,72" />
+  <StrutsActivity path="/webPages/ajax/queryResult.jsp" location="30,420" dimension="331,48" />
+  <StrutsActivity path="/webPages/editableTable.jsp" location="-135,150" dimension="202,48" />
+  <StrutsActivity path="/webPages/index.jsp" location="585,45" dimension="346,48" />
+  <StrutsActivity path="/webPages/CustomerNameEdit.jsp" location="375,345" dimension="220,48" />
+  <StrutsActivity path="/webPages/CustomerName.jsp" location="510,180" dimension="196,48" />
+  <StrutsActivity path="/webPages/error.jsp" location="120,195" dimension="154,48" />
+  <StrutsActivity path="/webPages/ajax/statusContent1.jsp" location="105,300" dimension="238,48" />
+  <StrutsActivity path="/webPages/showDataTable.jsp" location="690,600" dimension="202,48" />
+  <StrutsActivity path="/webPages/subCategory.jsp" location="950,750" dimension="190,48" />
+  <StrutsActivity path="/webPages/categoryManagement.jsp" location="350,650" dimension="232,48" />
+  <StrutsActivity path="/webPages/mainCategory.jsp" location="50,750" dimension="196,48" />
+  <StrutsActivity path="/webPages/assignWorkManagement_worker.jsp" location="1095,345" dimension="286,48" />
+  <StrutsActivity path="/webPages/assignWorkManagement_cust.jsp" location="1290,450" dimension="274,48" />
+  <StrutsActivity path="/webPages/assignWorkManagement_status.jsp" location="1250,550" dimension="286,48" />
+  <StrutsActivity path="/webPages/genTable.jsp" location="-390,540" dimension="172,48" />
+  <StrutsActivity path="/genChart.do" />
+  <StrutsTransition id="/webPages/ajax/queryResult.jsp,null,/query.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="242,468" />
+      <AbsolutePoint location="242,510" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/customer.do,pagination,/pagination.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="180,84" />
+      <AbsolutePoint location="19,84" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="生成报表;6,null,/webPages/genTable.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="-316,492" />
+      <AbsolutePoint location="-316,540" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/categoryManage.do,subCategory,/webPages/subCategory.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="748,783" />
+      <AbsolutePoint location="950,783" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/initial.do,index,/webPages/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="600,-6" />
+      <AbsolutePoint location="600,45" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/customer.do,query,/initial.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="390,45" />
+      <AbsolutePoint location="390,-6" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/pagination.do,table,/webPages/editableTable.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="-120,99" />
+      <AbsolutePoint location="-120,150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/customer.do,custName,/webPages/CustomerName.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="525,129" />
+      <AbsolutePoint location="525,180" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/visibleSelect.do,initial,/initial.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="112,-63" />
+      <AbsolutePoint location="375,-63" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/categoryManage.do,mainCategory,/webPages/mainCategory.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="360,783" />
+      <AbsolutePoint location="246,783" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/customer.do,custEdit,/webPages/CustomerNameEdit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="420,129" />
+      <AbsolutePoint location="420,285" />
+      <AbsolutePoint location="485,285" />
+      <AbsolutePoint location="485,345" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/genTable.do,showTable,/webPages/showDataTable.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="825,504" />
+      <AbsolutePoint location="825,600" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/assignWork.do,status,/webPages/assignWorkManagement_status.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1579,279" />
+      <AbsolutePoint location="1579,574" />
+      <AbsolutePoint location="1536,574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/customer.do,error,/webPages/error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="259,129" />
+      <AbsolutePoint location="259,195" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/customer.do,saved,/webPages/ajax/statusContent1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="328,129" />
+      <AbsolutePoint location="328,300" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/query.do,ajax,/webPages/ajax/queryResult.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="212,510" />
+      <AbsolutePoint location="212,468" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/visibleSelect.do,pagination,/pagination.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="-79,-21" />
+      <AbsolutePoint location="-79,15" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/assignWork.do,worker,/webPages/assignWorkManagement_worker.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1366,279" />
+      <AbsolutePoint location="1366,345" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updatePmr.do,pagination,/pagination.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="-166,225" />
+      <AbsolutePoint location="-166,99" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/assignWork.do,cust,/webPages/assignWorkManagement_cust.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1427,279" />
+      <AbsolutePoint location="1427,450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/categoryManage.do,categoryManage,/webPages/categoryManagement.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="554,750" />
+      <AbsolutePoint location="554,698" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

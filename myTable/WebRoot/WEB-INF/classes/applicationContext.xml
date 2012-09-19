@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+
+
+	<bean id="custQuery" name="/query"
+		class="com.ibm.cn.db2.mytable.struts.action.QueryAction"
+		abstract="false" lazy-init="default" autowire="default"
+		dependency-check="default">
+	</bean>
+	
+	
+	<bean id="pagination" name="/pagination"
+		class="com.ibm.cn.db2.mytable.struts.action.PaginationAction"
+		abstract="false" lazy-init="default" autowire="default"
+		dependency-check="default">
+	</bean>
+	
+	
+	<bean id="customer" name="/customer"
+		class="com.ibm.cn.db2.mytable.struts.action.CustomerAction"
+		abstract="false" lazy-init="default" autowire="default"
+		dependency-check="default">
+	</bean>
+	
+	
+	<bean id="initial" name="/initial"
+		class="com.ibm.cn.db2.mytable.struts.action.InitialAction"
+		abstract="false" lazy-init="default" autowire="default"
+		dependency-check="default">
+	</bean>
+	
+	
+	<bean id="updatePmr" name="/updatePmr"
+		class="com.ibm.cn.db2.mytable.struts.action.UpdatePmrAction"
+		abstract="false" lazy-init="default" autowire="default"
+		dependency-check="default">
+	</bean>
+	
+	
+	<bean id="genChart" name="/genChart"
+		class="com.ibm.cn.db2.mytable.struts.action.GenChartAction"
+		abstract="false" lazy-init="default" autowire="default"
+		dependency-check="default">
+	</bean>
+	
+	
+	<bean id="genTable" name="/genTable"
+		class="com.ibm.cn.db2.mytable.struts.action.GenTableAction"
+		abstract="false" lazy-init="default" autowire="default"
+		dependency-check="default">
+	</bean>
+	
+	
+	<bean id="categoryManage" name="/categoryManage"
+		class="com.ibm.cn.db2.mytable.struts.action.CategoryManageAction"
+		abstract="false" lazy-init="default" autowire="default"
+		dependency-check="default">
+	</bean>
+	
+	<bean id="visibleSelect" name="/visibleSelect"
+		class="com.ibm.cn.db2.mytable.struts.action.VisibleSelectAction"
+		abstract="false" lazy-init="default" autowire="default"
+		dependency-check="default">
+	</bean>
+	
+</beans>

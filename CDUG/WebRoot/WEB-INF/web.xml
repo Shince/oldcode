@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>login</servlet-name>
+    <servlet-class>servlet.log.login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>logout</servlet-name>
+    <servlet-class>servlet.log.logout</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Changeaccess</servlet-name>
+    <servlet-class>servlet.access.Changeaccess</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Upload</servlet-name>
+    <servlet-class>servlet.upload.Upload</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Deletefile</servlet-name>
+    <servlet-class>servlet.deletefile.Deletefile</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>News</servlet-name>
+    <servlet-class>servlet.release.News</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Events</servlet-name>
+    <servlet-class>servlet.release.Events</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PicUpload</servlet-name>
+    <servlet-class>servlet.upload.PicUpload</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Deletenews</servlet-name>
+    <servlet-class>servlet.editnews.Deletenews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Editnews</servlet-name>
+    <servlet-class>servlet.editnews.Editnews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewsRss</servlet-name>
+    <servlet-class>servlet.rss.NewsRss</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Rss</servlet-name>
+    <servlet-class>servlet.rss.Rss</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EventsRss</servlet-name>
+    <servlet-class>servlet.rss.EventsRss</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewsComments</servlet-name>
+    <servlet-class>servlet.comments.NewsComments</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteComments</servlet-name>
+    <servlet-class>servlet.comments.DeleteComments</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteCommentsServlet</servlet-name>
+    <servlet-class>servlet.manage.DeleteCommentsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteNewsServlet</servlet-name>
+    <servlet-class>servlet.manage.DeleteNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SQLQueryServlet</servlet-name>
+    <servlet-class>servlet.manage.SQLQueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>accessChange</servlet-name>
+    <servlet-class>servlet.manage.accessChange</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SQLcontrol</servlet-name>
+    <servlet-class>servlet.manage.SQLcontrol</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateFileInfo</servlet-name>
+    <servlet-class>servlet.manage.updateFileInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteUploadServlet</servlet-name>
+    <servlet-class>servlet.manage.DeleteUploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Adminlogin</servlet-name>
+    <servlet-class>servlet.manage.Adminlogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Adminlogout</servlet-name>
+    <servlet-class>servlet.manage.Adminlogout</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteUploadManage</servlet-name>
+    <servlet-class>servlet.manage.DeleteUploadManage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReplaceUploadServlet</servlet-name>
+    <servlet-class>servlet.manage.ReplaceUploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReplaceFile</servlet-name>
+    <servlet-class>servlet.manage.ReplaceFile</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UrlFile</servlet-name>
+    <servlet-class>servlet.upload.UrlFile</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<listener>
+<listener-class>
+utility.SessionListener
+</listener-class>
+</listener>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/servlet/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>logout</servlet-name>
+    <url-pattern>/servlet/logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Changeaccess</servlet-name>
+    <url-pattern>/servlet/Changeaccess</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Upload</servlet-name>
+    <url-pattern>/servlet/Upload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Deletefile</servlet-name>
+    <url-pattern>/servlet/Deletefile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>News</servlet-name>
+    <url-pattern>/servlet/News</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Events</servlet-name>
+    <url-pattern>/servlet/Events</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PicUpload</servlet-name>
+    <url-pattern>/servlet/PicUpload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Deletenews</servlet-name>
+    <url-pattern>/servlet/Deletenews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Editnews</servlet-name>
+    <url-pattern>/servlet/Editnews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewsRss</servlet-name>
+    <url-pattern>/servlet/NewsRss</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Rss</servlet-name>
+    <url-pattern>/servlet/Rss</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EventsRss</servlet-name>
+    <url-pattern>/servlet/EventsRss</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewsComments</servlet-name>
+    <url-pattern>/servlet/NewsComments</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteComments</servlet-name>
+    <url-pattern>/servlet/DeleteComments</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteCommentsServlet</servlet-name>
+    <url-pattern>/servlet/DeleteCommentsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteNewsServlet</servlet-name>
+    <url-pattern>/servlet/DeleteNewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SQLQueryServlet</servlet-name>
+    <url-pattern>/servlet/SQLQueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>accessChange</servlet-name>
+    <url-pattern>/servlet/accessChange</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SQLcontrol</servlet-name>
+    <url-pattern>/servlet/SQLcontrol</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateFileInfo</servlet-name>
+    <url-pattern>/servlet/updateFileInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteUploadServlet</servlet-name>
+    <url-pattern>/servlet/DeleteUploadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Adminlogin</servlet-name>
+    <url-pattern>/servlet/Adminlogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Adminlogout</servlet-name>
+    <url-pattern>/servlet/Adminlogout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteUploadManage</servlet-name>
+    <url-pattern>/servlet/DeleteUploadManage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReplaceUploadServlet</servlet-name>
+    <url-pattern>/servlet/ReplaceUploadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReplaceFile</servlet-name>
+    <url-pattern>/servlet/ReplaceFile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UrlFile</servlet-name>
+    <url-pattern>/servlet/UrlFile</url-pattern>
+  </servlet-mapping>
+</web-app>

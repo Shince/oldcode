@@ -1,0 +1,462 @@
+.lwp-teamSpace-title {
+	FONT-WEIGHT: bold; COLOR: #ffffff; BACKGROUND-COLOR: #5c5c5c
+}
+.lwp-webConference-title {
+	FONT-WEIGHT: bold; COLOR: #ffffff; BACKGROUND-COLOR: #5c5c5c
+}
+.popup-background {
+	BACKGROUND-COLOR: #eeeeee
+}
+.lwp-middleToolbar {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: xx-small; PADDING-BOTTOM: 4px; MARGIN: 0px; COLOR: #737373; PADDING-TOP: 4px; BORDER-BOTTOM: #d8d8e0 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.lwpAdminButton {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: xx-small; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #ffffff; PADDING-TOP: 0px; BACKGROUND-COLOR: #a0a0a0; TEXT-DECORATION: none
+}
+.lwpAdminButtonLink {
+	FONT-WEIGHT: normal; FONT-SIZE: xx-small; MARGIN: 0px; COLOR: #ffffff; BACKGROUND-COLOR: #a0a0a0; TEXT-DECORATION: none
+}
+.lwpAdminButtonLink:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: xx-small; MARGIN: 0px; COLOR: #ffffff; BACKGROUND-COLOR: #a0a0a0; TEXT-DECORATION: none
+}
+.lwpAdminButtonLink:active {
+	FONT-WEIGHT: normal; FONT-SIZE: xx-small; MARGIN: 0px; COLOR: #ffffff; BACKGROUND-COLOR: #a0a0a0; TEXT-DECORATION: none
+}
+.lwpAdminButtonLink:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: xx-small; MARGIN: 0px; COLOR: #ffffff; BACKGROUND-COLOR: #a0a0a0; TEXT-DECORATION: none
+}
+.lwpNavButton {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #ffffff; PADDING-TOP: 0px; BACKGROUND-COLOR: #70a8f0; TEXT-DECORATION: none
+}
+.lwpNavButtonLink {
+	FONT-WEIGHT: normal; MARGIN: 0px; COLOR: #ffffff; BACKGROUND-COLOR: #70a8f0; TEXT-DECORATION: none
+}
+.lwpNavButtonLink:hover {
+	FONT-WEIGHT: normal; MARGIN: 0px; COLOR: #ffffff; BACKGROUND-COLOR: #70a8f0; TEXT-DECORATION: none
+}
+.lwpNavButtonLink:active {
+	FONT-WEIGHT: normal; MARGIN: 0px; COLOR: #ffffff; BACKGROUND-COLOR: #70a8f0; TEXT-DECORATION: none
+}
+.lwpNavButtonLink:visited {
+	FONT-WEIGHT: normal; MARGIN: 0px; COLOR: #ffffff; BACKGROUND-COLOR: #70a8f0; TEXT-DECORATION: none
+}
+.button-link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.button-link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.button-link:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.button-link:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.lwpButtonGroup {
+	MARGIN: 0.25em 4px
+}
+.lwpIconOnly {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; BACKGROUND-COLOR: white
+}
+.lwpIconOnlyDisabled {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; BACKGROUND-COLOR: white
+}
+.lwpDialogIconBackground {
+	BORDER-RIGHT: #919191 1px solid; PADDING-RIGHT: 2px; BACKGROUND-POSITION: left center; BORDER-TOP: #919191 1px solid; PADDING-LEFT: 2px; FONT-WEIGHT: normal; BACKGROUND-IMAGE: url(../DialogIconTextBackground.gif); PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; OVERFLOW: visible; BORDER-LEFT: #919191 1px solid; COLOR: #000000; PADDING-TOP: 0px; BORDER-BOTTOM: #919191 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #dddddd; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.lwpDialogDisabledIconBackground {
+	BORDER-RIGHT: #919191 1px solid; PADDING-RIGHT: 2px; BACKGROUND-POSITION: left center; BORDER-TOP: #919191 1px solid; PADDING-LEFT: 2px; FONT-WEIGHT: normal; BACKGROUND-IMAGE: url(../DialogIconTextBackground.gif); PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; OVERFLOW: visible; BORDER-LEFT: #919191 1px solid; COLOR: #888888; PADDING-TOP: 0px; BORDER-BOTTOM: #919191 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #dddddd; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.lwpDialogIconBackgroundDisabled {
+	BORDER-RIGHT: #919191 1px solid; PADDING-RIGHT: 2px; BACKGROUND-POSITION: left center; BORDER-TOP: #919191 1px solid; PADDING-LEFT: 2px; FONT-WEIGHT: normal; BACKGROUND-IMAGE: url(../DialogIconTextBackground.gif); PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; OVERFLOW: visible; BORDER-LEFT: #919191 1px solid; COLOR: #888888; PADDING-TOP: 0px; BORDER-BOTTOM: #919191 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #dddddd; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.lwpButtonText {
+	BORDER-RIGHT: #919191 1px solid; PADDING-RIGHT: 2px; BACKGROUND-POSITION: left center; BORDER-TOP: #919191 1px solid; PADDING-LEFT: 2px; FONT-WEIGHT: normal; BACKGROUND-IMAGE: url(../ButtonBackground.gif); PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; OVERFLOW: visible; BORDER-LEFT: #919191 1px solid; COLOR: #000000; PADDING-TOP: 0px; BORDER-BOTTOM: #919191 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #dddddd; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.lwpButtonTextDisabled {
+	BORDER-RIGHT: #919191 1px solid; PADDING-RIGHT: 2px; BACKGROUND-POSITION: left center; BORDER-TOP: #919191 1px solid; PADDING-LEFT: 2px; FONT-WEIGHT: normal; BACKGROUND-IMAGE: url(../ButtonBackground.gif); PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; OVERFLOW: visible; BORDER-LEFT: #919191 1px solid; COLOR: #888888; PADDING-TOP: 0px; BORDER-BOTTOM: #919191 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #dddddd; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.lwpButtonSpacer {
+	MARGIN-RIGHT: 2px
+}
+.portlet-separator {
+	BACKGROUND-COLOR: #999999
+}
+.lwpSeparatorBg {
+	BACKGROUND-COLOR: #999999
+}
+DIV.portlet-separator {
+	MARGIN: 2px 0px; BACKGROUND-COLOR: #999999
+}
+DIV.lwpSeparatorBg {
+	MARGIN: 2px 0px; BACKGROUND-COLOR: #999999
+}
+.borderNone {
+	BORDER-TOP-WIDTH: 0px! important; BORDER-LEFT-WIDTH: 0px! important; BORDER-BOTTOM-WIDTH: 0px! important; BORDER-RIGHT-WIDTH: 0px! important
+}
+.lwpPortletTitleBorder {
+	BACKGROUND-POSITION: 50% bottom; BACKGROUND-IMAGE: url(../skin_border.gif); BACKGROUND-REPEAT: repeat-x
+}
+.lwpAlignRight {
+	TEXT-ALIGN: right
+}
+.lwpBorderAll {
+	BORDER-RIGHT: #dcdcdc 1px solid; BORDER-TOP: #dcdcdc 1px solid; BORDER-LEFT: #dcdcdc 1px solid; BORDER-BOTTOM: #dcdcdc 1px solid
+}
+.lwpShadowBorder {
+	BORDER-RIGHT: #888888 1px solid; BORDER-BOTTOM: #888888 1px solid
+}
+.lwpSearchBar {
+	MARGIN: 5px 0px; BACKGROUND-COLOR: #ececec; TEXT-ALIGN: right
+}
+.lwpSearchBar TABLE {
+	MARGIN-LEFT: auto; MARGIN-RIGHT: 0px
+}
+.lwpSearchBar TD {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 2px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.lwpSearchBar .portlet-form-field-label {
+	PADDING-LEFT: 10px
+}
+.lwpInlineHelp TD {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 1px; PADDING-BOTTOM: 5px; VERTICAL-ALIGN: top; PADDING-TOP: 5px
+}
+.lwpMenuHeader {
+	FONT-WEIGHT: normal; CURSOR: hand; COLOR: #000000; BACKGROUND-COLOR: #f0f0f0; TEXT-DECORATION: none
+}
+A.lwpMenuHeader {
+	FONT-WEIGHT: normal; CURSOR: hand; COLOR: #000000; BACKGROUND-COLOR: #f0f0f0; TEXT-DECORATION: none
+}
+A.lwpMenuHeader:visited {
+	FONT-WEIGHT: normal; CURSOR: hand; COLOR: #000000; BACKGROUND-COLOR: #f0f0f0; TEXT-DECORATION: none
+}
+A.lwpMenuHeader:hover {
+	FONT-WEIGHT: normal; CURSOR: hand; COLOR: #000000; BACKGROUND-COLOR: #f0f0f0; TEXT-DECORATION: none
+}
+.lwpMenuBackground {
+	BACKGROUND-COLOR: #ffffff
+}
+.lwpMenuItem {
+	COLOR: #000000; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.lwpMenuItem {
+	COLOR: #000000; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.lwpMenuItem:visited {
+	COLOR: #000000; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.lwpMenuItem:hover {
+	COLOR: #000000; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.lwpSelectedMenuItem {
+	CURSOR: hand; COLOR: #ffffff; BACKGROUND-COLOR: #284888; TEXT-DECORATION: none
+}
+A.lwpSelectedMenuItem:visited {
+	CURSOR: hand; COLOR: #ffffff; BACKGROUND-COLOR: #284888; TEXT-DECORATION: none
+}
+A.lwpSelectedMenuItem:hover {
+	CURSOR: hand; COLOR: #ffffff; BACKGROUND-COLOR: #284888; TEXT-DECORATION: none
+}
+.lwpMenuItemDisabled {
+	COLOR: #888888; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.lwpMenuItemDisabled {
+	COLOR: #888888; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.lwpMenuItemDisabled:visited {
+	COLOR: #888888; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.lwpMenuItemDisabled:hover {
+	COLOR: #888888; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.unreadMailText {
+	FONT-WEIGHT: bold; COLOR: #3366cc; TEXT-DECORATION: underline
+}
+A.unreadMailText {
+	FONT-WEIGHT: bold; COLOR: #3366cc; TEXT-DECORATION: underline
+}
+A.unreadMailText:visited {
+	FONT-WEIGHT: normal; COLOR: #666699; TEXT-DECORATION: underline
+}
+.lwpLastReadMark {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; PADDING-BOTTOM: 3px; COLOR: #ffffff; PADDING-TOP: 3px; BACKGROUND-COLOR: #666666; align: center
+}
+.lwpDateStampMark {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; PADDING-BOTTOM: 3px; COLOR: #666666; PADDING-TOP: 3px; BACKGROUND-COLOR: #999999; align: center
+}
+.lwpCalFsizeX {
+	FONT-SIZE: x-small
+}
+.lwpCalViewMenuPosition {
+	PADDING-LEFT: 2px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px
+}
+A.lwpCalLinkText {
+	TEXT-DECORATION: none
+}
+A.lwpCalLinkText:hover {
+	TEXT-DECORATION: underline
+}
+A.lwpCalDateLinkText {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.lwpCalDateLinkText:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.lwpCalDateLinkText:hover {
+	COLOR: #666699; TEXT-DECORATION: underline
+}
+A.lwpCalInactiveDateLinkText {
+	COLOR: #a0a0a0; TEXT-DECORATION: none
+}
+A.lwpCalInactiveDateLinkText:visited {
+	COLOR: #a0a0a0; TEXT-DECORATION: none
+}
+A.lwpCalInactiveDateLinkText:hover {
+	COLOR: #666699; TEXT-DECORATION: underline
+}
+.lwpCal1WeekCellRow {
+	FONT-WEIGHT: normal; HEIGHT: 6em
+}
+.lwpCalCellRow {
+	FONT-WEIGHT: normal; HEIGHT: 2.2em
+}
+.lwpCalLDivider {
+	BORDER-LEFT: #aaaaaa 1px solid
+}
+.lwpCalTDivider {
+	BORDER-TOP: #aaaaaa 1px solid
+}
+.lwpCalNoBottom {
+	BORDER-BOTTOM: medium none
+}
+.lwpCalHeader {
+	FONT-WEIGHT: bold; VERTICAL-ALIGN: top; COLOR: #3366cc
+}
+.lwpCalHeaderImage {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 0px; MARGIN-BOTTOM: 5px; PADDING-BOTTOM: 2px; PADDING-TOP: 12px
+}
+.lwpCalAttendeeHeading {
+	COLOR: #898989
+}
+.lwpCalSectionHeader {
+	DISPLAY: block; FONT-WEIGHT: bold; MARGIN-BOTTOM: 5px; PADDING-BOTTOM: 2px; COLOR: black; PADDING-TOP: 12px
+}
+.lwpCalInviteeSection {
+	PADDING-LEFT: 2px
+}
+.lwpCalWeekNumber {
+	COLOR: #808080
+}
+.lwpCalEntryHoverDetail {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; VISIBILITY: hidden; BORDER-LEFT: #000000 1px solid; WIDTH: 400px; BORDER-BOTTOM: #000000 1px solid; POSITION: absolute
+}
+.lwpCalEventField {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; PADDING-TOP: 5px
+}
+.lwpCalEntryHoverPosition {
+	PADDING-LEFT: 5px
+}
+.lwpCalBgMeeting {
+	BACKGROUND-COLOR: #c3d3e6
+}
+.lwpCalBgWebConf {
+	BACKGROUND-COLOR: #c3d3e6
+}
+.lwpCalBgAppointment {
+	BACKGROUND-COLOR: #d8f8d8
+}
+.lwpCalBgAnniversary {
+	BACKGROUND-COLOR: #f8e8d0
+}
+.lwpCalBgReminder {
+	BACKGROUND-COLOR: #f8f8d0
+}
+.lwpCalBgAllDayEvent {
+	BACKGROUND-COLOR: #f8e0e0
+}
+.lwpCalTodayCell {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid
+}
+.lwpCalMonthDayCell {
+	BORDER-TOP: #aaaaaa 1px solid; WIDTH: 14%; HEIGHT: 6.4em
+}
+.lwpCalInactiveDayCell {
+	BACKGROUND-COLOR: #efefef
+}
+.lwpCalInactiveDay {
+	COLOR: #a0a0a0
+}
+.lwpCalSeperator {
+	BORDER-BOTTOM: #ffffff 1px solid
+}
+.lwpCalConflict {
+	BORDER-LEFT: #000000 2px solid
+}
+.lwpCalTimeText {
+	TEXT-ALIGN: right
+}
+.lwpCalEntryPosition {
+	PADDING-TOP: 2px
+}
+.lwpCalBDivider {
+	BORDER-BOTTOM: #aaaaaa 1px solid
+}
+.lwpPpkList {
+	BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: black 1px solid; PADDING-LEFT: 2px; OVERFLOW: auto; BORDER-LEFT: black 1px solid; WIDTH: 250px; BORDER-BOTTOM: #c0c0c0 1px solid; HEIGHT: 200px
+}
+.lwpPpkListBorder {
+	BORDER-TOP: #a0a0a0 1px solid; BORDER-LEFT: #a0a0a0 1px solid; WIDTH: 250px; HEIGHT: 200px
+}
+.lwpPpkNormalText {
+	COLOR: black; BACKGROUND-COLOR: white
+}
+.lwpPpkSelectedText {
+	COLOR: white; BACKGROUND-COLOR: #284888
+}
+.lwpMailboxRecipientAnchor {
+	CURSOR: hand; COLOR: black; TEXT-DECORATION: underline
+}
+A.lwpMailboxRecipientAnchor {
+	CURSOR: hand; COLOR: black; TEXT-DECORATION: underline
+}
+.lwpMailboxRecipientAnchor:hover {
+	CURSOR: hand; COLOR: black; TEXT-DECORATION: underline
+}
+A.lwpMailboxRecipientAnchor:hover {
+	CURSOR: hand; COLOR: black; TEXT-DECORATION: underline
+}
+.lwpMailboxRecipientAnchor:visited {
+	COLOR: black
+}
+A.lwpMailboxRecipientAnchor:visited {
+	COLOR: black
+}
+.chat_background {
+	BACKGROUND-COLOR: #ffffff
+}
+.chat_partner_presence {
+	PADDING-RIGHT: 3px; BORDER-TOP: #aaaaaa 1px solid; PADDING-LEFT: 3px; BORDER-BOTTOM-COLOR: #aaaaaa; PADDING-BOTTOM: 3px; BORDER-LEFT: #aaaaaa 1px solid; PADDING-TOP: 3px; BACKGROUND-COLOR: #eeeeee; BORDER-RIGHT-COLOR: #aaaaaa
+}
+.chat_partner_presence_corner {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(../chat_presence_corner.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: #ffffff
+}
+.chat_partner_alert {
+	BORDER-RIGHT: #aaaaaa 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #aaaaaa 1px solid; PADDING-LEFT: 3px; BORDER-BOTTOM-COLOR: #aaaaaa; PADDING-BOTTOM: 3px; BORDER-LEFT: #aaaaaa 1px solid; COLOR: #666666; PADDING-TOP: 3px; BACKGROUND-COLOR: #ffffff
+}
+.chat_transcript {
+	BORDER-RIGHT: #aaaaaa 1px solid; BORDER-TOP: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 1px solid; BORDER-BOTTOM: #aaaaaa 1px solid
+}
+.chat_transcript_nway {
+	BORDER-RIGHT: #456a8b 1px solid; BORDER-TOP: #456a8b 1px solid; BORDER-LEFT: #456a8b 1px solid; BORDER-BOTTOM: #456a8b 1px solid
+}
+.chat_message_input {
+	BORDER-RIGHT: #aaaaaa 1px solid; BORDER-TOP: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 1px solid; BORDER-BOTTOM: #aaaaaa 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.chat_statusbar {
+	BORDER-TOP: #aaaaaa 1px solid; BORDER-LEFT-COLOR: #aaaaaa; BORDER-BOTTOM-COLOR: #aaaaaa; COLOR: #aaaaaa; BACKGROUND-COLOR: #eeeeee; BORDER-RIGHT-COLOR: #aaaaaa
+}
+.chat_participants {
+	BORDER-LEFT-COLOR: #d8d8d8; BORDER-TOP-COLOR: #d8d8d8; BORDER-BOTTOM: #d8d8d8 1px solid; BORDER-RIGHT-COLOR: #d8d8d8
+}
+.lwp-selectedAgendaItem {
+	PADDING-BOTTOM: 1px; COLOR: #ffffff; LINE-HEIGHT: 150%; PADDING-TOP: 1px; BACKGROUND-COLOR: #888080; TEXT-DECORATION: none
+}
+A.lwp-selectedAgendaItem {
+	PADDING-BOTTOM: 1px; COLOR: #ffffff; LINE-HEIGHT: 150%; PADDING-TOP: 1px; BACKGROUND-COLOR: #888080; TEXT-DECORATION: none
+}
+A.lwp-selectedAgendaItem:hover {
+	PADDING-BOTTOM: 1px; COLOR: #ffffff; LINE-HEIGHT: 150%; PADDING-TOP: 1px; BACKGROUND-COLOR: #888080; TEXT-DECORATION: underline
+}
+.lwp-agendaItemDocument {
+	PADDING-BOTTOM: 3px; COLOR: #585858; PADDING-TOP: 3px
+}
+.lwp-agendaItem-ul {
+	PADDING-BOTTOM: 0px; MARGIN-LEFT: 20px; MARGIN-RIGHT: 20px; PADDING-TOP: 3px; LIST-STYLE-TYPE: none
+}
+.lwp-agendaItem-li {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.lwp-agendaItem {
+	COLOR: #7080a8; TEXT-DECORATION: none
+}
+.lwp-agendaItem:visited {
+	COLOR: #7080a8; TEXT-DECORATION: none
+}
+A.lwp-agendaItem {
+	COLOR: #7080a8; TEXT-DECORATION: none
+}
+A.lwp-agendaItem:active {
+	COLOR: #7080a8; TEXT-DECORATION: none
+}
+A.lwp-agendaItem:visited {
+	COLOR: #7080a8; TEXT-DECORATION: none
+}
+.lwp-agendaItemPage {
+	COLOR: #7080a8; TEXT-DECORATION: none
+}
+A.lwp-agendaItemPage {
+	COLOR: #7080a8; TEXT-DECORATION: none
+}
+.lwp-agendaItemSlide {
+	COLOR: #7080a8; TEXT-DECORATION: none
+}
+A.lwp-agendaItem:hover {
+	COLOR: #639ace; TEXT-DECORATION: underline
+}
+.lwpProjectorHeaderStart {
+	BORDER-RIGHT: #777777 0px; BORDER-TOP: #777777 1px solid; BORDER-LEFT: #777777 1px solid; BORDER-BOTTOM: #777777 0px; BACKGROUND-COLOR: #70a8f0
+}
+.lwpProjectorHeaderMiddle {
+	BORDER-RIGHT: #777777 0px; BORDER-TOP: #777777 1px solid; FONT-WEIGHT: bold; BORDER-LEFT: #777777 0px; COLOR: #343434; BORDER-BOTTOM: #777777 0px; BACKGROUND-COLOR: #70a8f0
+}
+.lwpProjectorHeaderEnd {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(../projectorTableTopRight.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: transparent
+}
+.lwpSlideTable {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid
+}
+.lwpSlideTableHeadStart {
+	BORDER-RIGHT: #000000 0px solid; BORDER-TOP: #000000 0px solid; FONT-WEIGHT: bold; BORDER-LEFT: #000000 0px solid; COLOR: #989898; BORDER-BOTTOM: #000000 0px solid; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left
+}
+.lwpSlideTableHeadMiddle {
+	BORDER-RIGHT: #000000 0px solid; BORDER-TOP: #000000 0px solid; FONT-WEIGHT: bold; BORDER-LEFT: #000000 0px solid; COLOR: #989898; BORDER-BOTTOM: #000000 0px solid; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left
+}
+.lwpSlideTableHeadEnd {
+	BORDER-RIGHT: #000000 0px solid; BORDER-TOP: #000000 0px solid; FONT-WEIGHT: bold; BORDER-LEFT: #000000 0px solid; COLOR: #989898; BORDER-BOTTOM: #000000 0px solid; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left
+}
+.lwpSlideBorder {
+	BORDER-RIGHT: #b0b0c0 1px solid; BORDER-TOP: #b0b0c0 1px solid; BORDER-LEFT: #b0b0c0 1px solid; BORDER-BOTTOM: #b0b0c0 1px solid
+}
+.lwp_labelNormalStyle {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.lwp_nodeImageStyle {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.lwp_labelHighlightStyle {
+	PADDING-RIGHT: 5px; FONT-WEIGHT: bold; COLOR: #ffffff; BACKGROUND-COLOR: #a0a0a0; TEXT-DECORATION: none
+}
+A.lwp_labelHighlightStyle:active {
+	PADDING-RIGHT: 5px; FONT-WEIGHT: bold; COLOR: #ffffff; BACKGROUND-COLOR: #a0a0a0; TEXT-DECORATION: none
+}
+.lwp_labelMouseoverStyle {
+	PADDING-RIGHT: 5px; FONT-WEIGHT: normal; COLOR: #000000; TEXT-DECORATION: underline
+}
+A.lwp_labelMouseoverStyle:hover {
+	PADDING-RIGHT: 5px; FONT-WEIGHT: normal; COLOR: #000000; TEXT-DECORATION: underline
+}
+A.lwp_labelMouseoverStyle:active {
+	PADDING-RIGHT: 5px; FONT-WEIGHT: normal; COLOR: #000000; TEXT-DECORATION: underline
+}
+.lwpTreePanel {
+	OVERFLOW: auto; WIDTH: 18em; HEIGHT: 100%
+}
+.lwpTreePanelBody {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: #aaaaaa 1px solid; BORDER-BOTTOM: 0px
+}
+.lwpTreePanelHeader {
+	BORDER-RIGHT: 0px; BORDER-TOP: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 1px solid; BORDER-BOTTOM: #aaaaaa 1px solid; BACKGROUND-COLOR: #c5d1de
+}
+.lwpTreePanelFooter {
+	BORDER-RIGHT: 0px; BORDER-TOP: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 1px solid; BORDER-BOTTOM: #aaaaaa 1px solid; BACKGROUND-COLOR: #c5d1de
+}

@@ -1,0 +1,583 @@
+/*Body*/
+body {
+	min-width: 700px;
+	padding: 0; /* need for Opera */
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-family: verdana, arial, helvetica, sans-serif, 宋体;
+	color: #060;
+	background-color: #CCC;
+	
+	width: 100%;
+	overflow: scroll;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: arial, verdana, sans-serif, 宋体;
+	margin: 1em 0 0.2em 0;
+}
+
+li h1,li h2,li h3,li h4,li h5,li h6 {
+	border: none;
+}
+
+img {
+	border: 0;
+}
+
+#header h1 {
+	border: 0;
+}
+
+h1 {
+	font-size: 160%;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 150%;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 120%;
+}
+
+h4 {
+	font-size: 100%;
+}
+
+h5 {
+	font-size: 90%;
+}
+
+h6 {
+	font-size: 90%;
+	border: 0;
+}
+
+/* Navigation */
+:link {
+	color: #039;
+}
+
+:visited {
+	color: #636;
+}
+
+:link :hover,:visited :hover {
+	color: #333;
+}
+
+:link :active,:link :active {
+	color: #000;
+}
+
+/* header copied from Mozilla.com */
+#header {
+	background: #33415d;
+	position: relative;
+	height: 38px;
+	padding: 0 50px;
+	border-bottom: 1px solid #a1a6b1;
+	z-index: 1;
+}
+
+#header div {
+	position: relative;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+#header h1 {
+	margin: 0 720px 0 0;
+}
+
+#header h1 img {
+	font-weight: bold;
+	color: #7f7c45;
+}
+
+#header ul {
+	position: absolute;
+	top: 0;
+	right: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border-left: 1px solid #576178;
+	border-right: 1px solid #1f2635;
+}
+
+* html #header ul {
+	right: 50px;
+}
+
+#header li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#header ul span,#header ul a:link,#header ul a:visited {
+	display: block;
+	float: left;
+	padding: 10px 15px;
+	text-decoration: none;
+	border-right: 1px solid #576178;
+	border-left: 1px solid #1f2635;
+	color: #dee0e5;
+	height: 36px;
+	height: 16px;
+}
+
+#header ul li span,#header ul li a.current,#header ul li a:hover {
+	background: #475470;
+	color: #fff;
+	text-decoration: underline;
+}
+
+#header ul li span,#header ul li a.current {
+	text-decoration: none;
+}
+
+#site_notice {
+	border: 1px dashed salmon;
+	padding: 5px;
+	margin: 2px;
+}
+
+/* Footer */
+#footer {
+	clear: both;
+	color: #bbb;
+	font-size: 12px;
+	border-top: 1px solid;
+	height: 20px;
+	padding: .25em 0;
+	color: white;
+}
+
+#footer #left {
+	float: left;
+	margin-left: 1em;
+	padding: 0 1em;
+	border-left: 1px solid #d7d7d7;
+	border-right: 1px solid #d7d7d7;
+	color: white;
+}
+
+#footer #right {
+	float: right;
+	text-align: right;
+}
+
+/*Table*/
+table {
+	border-collapse: collapse;
+	/* 关键属性：合并表格内外边框(其实表格边框有2px，外面1px，里面还有1px哦) */
+	border: solid #999; /* 设置边框属性；样式(solid=实线)、颜色(#999=灰) */
+	border-width: 1px 0 0 1px; /* 设置边框状粗细：上 右 下 左 = 对应：1px 0 0 1px */
+}
+
+table caption {
+	font-size: 14px;
+	font-weight: bolder;
+}
+
+table th,table td {
+	border: solid #999;
+	border-width: 0 1px 1px 0;
+	padding: 2px;
+}
+
+table th {
+	background: #0066DD;
+	color: #FFFF00;
+	line-height: 20px;
+	height: 30px;
+	font-size: 10pt;
+	text-align: left;
+}
+
+table td {
+	padding: 2px 2px;
+	border-bottom: 1px solid #95bce2;
+	vertical-align: middle;
+	text-align: left;
+	word-break: break-all;
+	text-overflow: ellipsis;
+}
+
+tr.alt td {
+	background: #ecf6fc; /*这行将给所有的tr加上背景色*/
+}
+
+tr.over td {
+	background: #bcd4ec; /*这个将是鼠标高亮行的背景色*/
+}
+
+table.stripe thead tr .sortable {
+	background-image: url(../images/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+
+table.stripe thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+	background-color: #83C948;
+}
+/**/
+.editable,textarea {
+	background-color: #ffffd3;
+}
+
+textarea {
+	width: 95%;
+	font-size: 100%;
+}
+
+/* breadcrumbs */
+#breadcrumbs {
+	width: 100%;
+	padding: 0;
+	background: #F7F8F8;
+	font-size: 85%;
+	color: #999;
+	vertical-align: middle;
+}
+
+#breadcrumbs #breadcrumbs_container {
+	width: 100%;
+	height: 60px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin: 0 auto;
+}
+
+#breadcrumbs a:link,#breadcrumbs a:visited {
+	color: #666;
+}
+
+#breadcrumbs a:hover,#breadcrumbs a:active {
+	color: #333;
+}
+
+#breadcrumbs #queryStatus {
+	width: 25%;
+	text-align: left;
+	margin: 0px;
+	font-size: inherit;
+	float: left;
+	overflow: hidden;
+	padding-left: 0px;
+}
+
+#breadcrumbs #queryForm {
+	width: 65%;
+	text-align: right;
+	margin: 0px;
+	float: right;
+	overflow: hidden;
+	padding-right: 0px;
+	padding-top: 18px;
+}
+
+#breadcrumbs form.searchbox {
+	display: inline;
+	font-size: inherit;
+}
+
+#breadcrumbs form.searchbox input.query {
+	height: 28px;
+	width: 10em;
+	font-size: inherit;
+	border-width: 1px;
+}
+
+#breadcrumbs form.searchbox input.submit {
+	height: 28px;
+	font-size: inherit;
+	border-width: 1px;
+}
+
+#breadcrumbs form.searchbox select.select {
+	height: 28px;
+	font-size: inherit;
+	border-width: 1px;
+}
+
+/*errors*/
+#errors {
+	color: red;
+	font-size: inherit;
+}
+
+/*genTable*/
+#genTable {
+	width: 100%;
+	height: 100%;
+}
+
+/**/
+div.actions {
+	height: 30px;
+	margin: 10px 0 5px 0;
+}
+
+div.actions .wrapper {
+	width: 750px;
+	float: right;
+}
+
+div.actions .wrapper .info {
+	float: right;
+	margin: 5px 25px 0 0;
+}
+
+div.actions .wrapper .info a {
+	text-decoration: underline;
+}
+
+.pagination span.current {
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #006699;
+	border-right-color: #006699;
+	border-bottom-color: #006699;
+	border-left-color: #006699;
+	font-weight: bold;
+	background-color: #006699;
+	color: #ffffff;
+}
+
+.pagination {
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	float: right;
+}
+
+.pagination span.disabled {
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #eeeeee;
+	border-right-color: #eeeeee;
+	border-bottom-color: #eeeeee;
+	border-left-color: #eeeeee;
+	color: #dddddd;
+}
+
+.pagination {
+	padding: 5px;
+	float: right;
+}
+
+.pagination a,.pagination a:link,.pagination a:visited {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #aaaadd;
+	text-decoration: none;
+	color: #006699;
+}
+
+.pagination a:hover,.pagination a:active {
+	border: 1px solid #006699;
+	color: #000;
+	text-decoration: none;
+}
+
+.pagination span.current {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #006699;
+	font-weight: bold;
+	background-color: #006699;
+	color: #FFF;
+}
+
+.pagination span.disabled {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #eee;
+	color: #ddd;
+}
+
+/*CustomerName menu*/
+#content {
+	float: left;
+	padding: 10px;
+	margin: 2px;
+	background: #FFF;
+	border: 3px solid #666;
+	width: 220px; 
+	/* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 200px;
+	height: 600px;
+	overflow : visible;
+}
+html>body #content {
+	width: 200px; 
+	/* ie5win fudge ends */
+	}
+
+#content #href a,#content #href a:link,#content #href a:visited {
+	padding: 2px 2px 2px 2px;
+	margin: 2px;
+	border: 1px solid #aaaadd;
+	text-decoration: none;
+	color: #447788;
+}
+
+#content #href a:hover,#content #href a:active {
+	border: 1px solid #447788;
+	color: #000;
+	text-decoration: none;
+}
+
+/*Main menu~*/
+#content2 {
+	float: left;
+	padding: 10px;
+	margin: 2px;
+	background: #FFF;
+	border: 3px solid #666;
+	width: 85%; 
+	/* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 83%;
+	height: 600px;
+	overflow: scroll;
+}
+html>body #content2 {
+	width: 83%; 
+	/* ie5win fudge ends */
+}
+
+#table{
+	margin: 0px;
+	width: 100%;
+	height: 600px;
+}
+
+.stripe{
+	width: 100%;
+}
+
+#myCategory{
+	width: 100%;
+	height: 100%;
+	
+}
+
+#myCategory #Category{
+	border: 1px dashed #0099CC;	
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 500px;
+}
+
+#myCategory #SubCategory{
+	border: 1px dashed #0099CC;	
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 500px;
+}
+
+#myCategory h3 {
+	
+	height: 40px;
+	width: 200px;
+	color: #FFFFFF;
+	padding: 6px 3px 3px 10px;
+	background-color: #0099CC;
+	font-size: 16px;
+}
+
+#myCategory select{
+	height: 400px;
+	width: 200px;
+}
+
+#someMenu{
+	font-size: 12px;
+}
+
+#AssignWorkManagement{
+	width: 100%;
+	height: 100%;
+	
+}
+
+#AssignWorkManagement #CustomerNames{
+	border: 1px dashed #0099CC;	
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 500px;
+}
+
+#AssignWorkManagement #Workers{
+	border: 1px dashed #0099CC;	
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 500px;
+}
+
+#AssignWorkManagement #Status{
+	border: 1px dashed #0099CC;	
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 500px;
+}
+
+#AssignWorkManagement h3 {
+	
+	height: 40px;
+	width: 200px;
+	color: #FFFFFF;
+	padding: 6px 3px 3px 10px;
+	background-color: #0099CC;
+	font-size: 16px;
+}
+
+#AssignWorkManagement select{
+	height: 400px;
+	width: 200px;
+}
