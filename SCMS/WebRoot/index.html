@@ -1,0 +1,82 @@
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+		<title>在线学生课程管理系统---Copyright:TJ-SSE</title>
+		<SCRIPT language="JavaScript">
+			function validateForm(theForm) {
+				if(	(theForm.id.value == "") ||	
+				(theForm.psw.value == ""))   {
+				if(theForm.id.value == "") alert("请填写帐号！");
+				if(theForm.psw.value == "") alert("请填写密码！");
+				return false
+				}
+			return true
+			}  
+		</SCRIPT>
+	</head>
+
+	<body bgcolor="#7C7C90" topmargin="0" leftmargin="0">
+
+		<div align="center">
+			<table border="0" cellpadding="0" cellspacing="0" width="770"
+				id="table1">
+				<tr>
+					<td height="36">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div align="center">
+							<form method="post" action="/SCMS/servlet/LoginService"
+								name="LoginForm"
+								onsubmit="return validateForm(document.LoginForm)">
+								<table border="0" cellpadding="0" cellspacing="0" width="547"
+									id="table2">
+									<tr>
+										<td>
+											<img border="0" src="images/main.jpg" width="547"
+												height="198">
+										</td>
+									</tr>
+									<tr>
+										<td background="images/table_back.jpg" height="78">
+											<div align="center">
+												<table border="0" cellpadding="0" cellspacing="0"
+													width="510" id="table3">
+													<tr>
+														<td width="30">
+															<img border="0" src="images/name.png" width="30"
+																height="30">
+														</td>
+														<td width="146">
+															<input type="text" name="id" size="20"
+																style="font-size: 12px; font-family: Verdana; border: 1px solid #81849D">
+														</td>
+														<td width="30">
+															<img border="0" src="images/pass.png" width="30"
+																height="30">
+														</td>
+														<td width="137">
+															<input type="password" name="psw" size="18"
+																style="font-size: 12px; font-family: Verdana; border: 1px solid #81849D">
+														</td>
+														<td width="83">
+															<input type="image" src="images/butt_login.png"
+																name="submit" width="72" height="24">
+														</td>
+													</tr>
+												</table>
+											</div>
+										</td>
+									</tr>
+								</table>
+								</form>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+
+</html>
